@@ -1,0 +1,90 @@
+body {margin: 1px;}
+p {
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    }
+h2 {letter-spacing: 2px;
+    color: white;
+    padding-top: 200px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;}
+a {text-decoration: none;
+flex: 1;
+color:white;}
+.napis {
+    margin-bottom: 0;
+}
+.menu {background-color: #333a44;}
+.main {display:flex }
+.LIT {
+    background-image: url("kniha.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 660px;}
+
+.SJL {
+    background-image: url("písanie.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 660px;}
+.spodok {background-color: #656565;
+}
+.spodoktxt {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+color: rgb(193, 193, 193);
+}
+.main1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.celok {
+    align-items: center;
+    margin: 3px ;
+    padding: 75px 0 ;
+    text-align: center;
+    filter: grayscale(100%);
+    font-family: 'Oswald', sans-serif;
+    background-image: url("books-wide.jpg");
+    background-size: cover;
+}
+.celok:hover {
+    filter: grayscale(10%);
+}
+.celokSJL {
+    align-items: center;
+    margin: 3px ;
+    padding: 75px 0 ;
+    text-align: center;
+    filter: grayscale(100%);
+    font-family: 'Oswald', sans-serif;
+    background-image: url("writing-wide.jpg");
+    background-size: cover;
+}
+.celokSJL:hover {
+    filter: grayscale(10%);
+}
+.linky {color: white;
+text-decoration: none;}
+.ucivo {
+    width: 55%;
+    margin: auto;
+    
+}
+.nnadpis{
+    text-align: center;
+    padding: 0;
+}
+.ntext {
+    text-align: justify;
+    color: black;
+}
+.menuimg {
+    width: 20px;
+}
+.buttonmenu {
+    position: relative;
+    display: inline;
+}

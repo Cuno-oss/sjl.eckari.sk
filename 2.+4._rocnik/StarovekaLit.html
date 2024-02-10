@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literatúra</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oswald:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="icon" href="/css/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html" class="linky"><p class="napis">Učebnica zo slovenského jazyka a literatúty</p></a>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="LIT.html">Literatúra 1. ročník</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            1.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="StarovekaLit.html">Staroveká literatúra</a></li>
+            <li><a class="dropdown-item" href="StredovekaLit.html">Stredoveká literatúra</a></li>
+            <li><a class="dropdown-item" href="HumanistickaARenesancnaLit.html">Humanistická a renesančná literatúru</a></li>
+            <li><a class="dropdown-item" href="BarokovaLit.html">Baroková literatúra</a></li>
+            <li><a class="dropdown-item" href="KlasicistickaLit.html">Klasicistická literatúra</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">2. Ročník</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            3.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="KratkaEpickaProza.html">Krátka epická próza</a></li>
+            <li><a class="dropdown-item" href="VelkaEpickaProza.html">Veľká epická próza</a></li>
+            <li><a class="dropdown-item" href="LyrickaPoezia.html">Lyrická poézia</a></li>
+            <li><a class="dropdown-item" href="DramatickaLiteratura.html">Dramatická literatúra</a></li>
+            <li><a class="dropdown-item" href="NetradičnaEpickaProza.html">Netradičná epická próza</a></li>
+            <li><a class="dropdown-item" href="SucasnaEpickaProza.html">Súčasná epická próza</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">4. Ročník</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+    <button class="btn btn-primary buttonmenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img class="menuimg" src="/css/menu.png" alt=""></button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel"> Učivá</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Staroveká literatúra
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#starovek">Starovek</a></li>
+        <li><a class="dropdown-item" href="#epika1">Epika</a></li>
+        <li><a class="dropdown-item" href="#lyrika1">Lyrika</a></li>
+        <li><a class="dropdown-item" href="#drama1">Dráma</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Stredoveká literatúra
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="StredovekaLit.html">Starovek</a></li>
+        <li><a class="dropdown-item" href="StredovekaLit.html">Epika</a></li>
+        <li><a class="dropdown-item" href="StredovekaLit.html">Lyrika</a></li>
+        <li><a class="dropdown-item" href="StredovekaLit.html">Slovenská stredoveká literatúra</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Humanistická a renesančná literatúru
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="HumanistickaARenesancnaLit.html">Humanizmus a renesancia</a></li>
+        <li><a class="dropdown-item" href="HumanistickaARenesancnaLit.html">Epika</a></li>
+        <li><a class="dropdown-item" href="HumanistickaARenesancnaLit.html">Lyrika</a></li>
+        <li><a class="dropdown-item" href="HumanistickaARenesancnaLit.html">Dráma</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Baroková literatúra
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="BarokovaLit.html">Barok</a></li>
+        <li><a class="dropdown-item" href="BarokovaLit.html">Epika</a></li>
+        <li><a class="dropdown-item" href="BarokovaLit.html">Lyrika</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Klasicistická literatúra
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="KlasicistickaLit.html">Klasicizmus</a></li>
+        <li><a class="dropdown-item" href="KlasicistickaLit.html">Epika</a></li>
+        <li><a class="dropdown-item" href="KlasicistickaLit.html">Dráma</a></li>
+        <li><a class="dropdown-item" href="KlasicistickaLit.html">Slovenská klasicistická literatura</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="ucivo bg-light" id="starovek">
+  <h1 class="nnadpis">Starovek (3500 pred Kr. - 5 stor. po Kr.)</h1>
+  <p class="ntext">
+    V staroveku dostala písaná literatúra svoj názov (z lat. littera - písmeno). Na počiatku tohto obdobia boli len dve formy umenia: <b>expresívne umenie</b> (zahŕňalo zárodky
+    poézie, hudby, tanca) <b>konštruktívne umenie</b> (súhrn architektúry, sochárstva a maliarstva). Poézia bola sprevádzaná hrou na jednoduché hudobné nástroje. Slovo sprevádzané
+    hudbou a tancom zaznievalo na počiatku ľudskej civilizácie počas náboženských pohanských obradov, zaklínaní či čarovaní, neskôr chodili interpreti a autori v jednej osobe
+    po krajine a recitovali dávne príbehy ľudstva, kmeňov a neskoršie národov. Z najstarších pisaných literárnych pamiatok je zrejmé, že autori rozoznávali tri základné literárne 
+    druhy: <b>epiku</b>, <b>lyriku</b> a <b>drámu</b>.
+</p>
+
+  
+    <h3 class="nnadpis">Sumerská literatúra (4. tisícročie pred Kr.)</h3>
+    <p class="ntext">
+      Jednou z najstarších starovekých literatúr je sumerská literatúra. Sumeri sú prvým historicky známym kmeňom. Ich civilizácia a kultúra vznikli v Mezopotámii - krajine
+      medzi riekami Eufrat a Tigris (jadro dnešného Iraku). Veda považuje Mezopotámiu za kolísku civilizácie a Biblia za „pozemský raj". Vznikli tu slávne mestá Akkad, Babylon,
+      Ur, Lagaš, Uruk... a postupne sa vystriedali ríše: akkadská, babylonská, asýrska. Znaky sumerskej literatúry:
+      <ul>
+        <li><b>polyteizmus</b> - viera v mnohobožstvo</li>
+        <li><b>podriadenosť ľudí bohom, ktorí majú kladné i záporné ľudské vlastnosti</b></li>
+        <li><b>polobohovia</b> - potomkovia bohov a pozemšťaniek alebo naopak</li>
+        <li><b>túžba hrdinov po sláve a nesmrteľnosti, ich výnimočnosť</b></li>
+        <li><b>symbolika postáv a predmetov</b> - napr. sekera, košeľa, rastlina nesmrteľnosti, býk...</li>
+        <li><b>spracovanie najstarších príbehov a piesní do rozsiahleho epického diela</b></li>
+      </ul>
+    
+    <h3 class="nnadpis">Hebrejská literatúra (od 12. stor. pred Kr.)</h3>
+    <p class="ntext">
+      Hebrejská literatúra je najmladšou z literatúr Blízkeho východu. Jej kľúčovým dielom je Biblia. Biblia je predovšetkým súhrn spisov židovského a kresťanského náboženstva, 
+      je kódexom židovskej a kresťanskej filozofie, morálky, ale je tiež jedinečným literárnym dielom. Jej poznanie patrí k všeobecnej vzdelanosti. Biblia sa skladá z textov z 
+      obdobia asi od roku 1300 pred Kr. až po 2. stor. po Kr. Spisy sú svojou povahou veľmi rozdielne a väčšina z nich prešla v priebehu storočí mnohými úpravami a novými 
+      interpretáciami. Odhaduje sa, že bola vydaná vo vyše 2 000 jazykoch, ktorými hovorí 80 % obyvateľov sveta. Biblia bola na našom území po prvýkrát preložená pre veriacich 
+      a cirkvi na Veľkej Morave do staroslovienčiny. Vďaka rozšíreniu kresťanstva do Európy ovplyvnila Biblia európsku literatúru a umenie najsilnejšie zo všetkých literárnych 
+      pamiatok ľudstva. Najväčší vplyv mala na stredovekú literatúru a barokovú literatúru. Myšlienkový svet Biblie, jej metaforické, alegorické a tematické postupy dodnes 
+      ovplyvňujú duchovný a umelecký (aj literárny) vývoj. Znaky hebrejskej literatúry:
+      <ul>
+        <li><b>monoteizmus</b> - viera v jedného Boha</li>
+        <li><b>odklon od kultu tela ku kultu duše</b></li>
+        <li><b>život na zemi ako príprava na posmrtný život, nadzmyslovosť </b></li>
+        <li><b>spracovanie najstarších príbehov a piesní do rozsiahleho epického diela</b></li>
+      </ul>
+
+    <h3 class="nnadpis">Antická literatúra</h3>
+    <p class="ntext">
+      Antická literatúra je novodobé označenie pre <b>starovekú grécku (8. stor. pred Kr. - 5. stor. po Kr.)</b> a <b>starovekú rímsku(3. stor. pred Kr. - 5. stor. po Kr.)</b>
+      literatúru. V tomto období boli vytvorené kultúrne hodnoty, ktoré sa stali základom európskej vzdelanosti. Po Biblii práve literárne diela tohto obdobia najviac ovplyvňovali
+      a dodnes ovplyvňujú európsku literatúru. Takmer každé literárne obdobie nadväzovalo na antickú literatúru alebo ju popieralo. Znalosti z antickej literatúry patria dnes 
+      k všeobecnému vzdelaniu, k základnej vedomostnej výbave každého kultúrneho človeka. V gréckej literatúre vznikli najznámejšie a najstaršie zachované európske literárne pamiatky,
+      sformovala sa väčšina literárnych žánrov a umeleckých výrazových prostriedkov, prvýkrát boli aj opísané a definované (Aristoteles: Poetika, Rétorika). Rímska literatúra 
+      nadviazala na grécku vzdelanosť a obohatila európsku literatúru napr. o hrdinský epos (Vergílius) a komédie (Plautus). Znaky antickej literatúry:
+      <ul>
+        <li><b>polyteizmus</b> - viera v mnohobožstvo</li>
+        <li><b>podriadenosť ľudí bohom, ktorí majú kladné i záporné ľudské vlastnosti</b></li>
+        <li><b>polobohovia</b> - potomkovia bohov a pozemšťaniek alebo naopak</li>
+        <li><b>premena človeka na boha</b></li>
+        <li><b>osudová neodvratnosť</b></li>
+        <li><b>harmónia telesnej a duševnej krásy</b></li>
+        <li><b>spracovanie najstarších príbehov, piesní do rozsiahleho epického diela</b></li>
+      </ul>
+    </p>
+    &nbsp;
+</div>
+<div class="ucivo bg-light" id="epika1">
+    <h1 class="nnadpis">Epika</h1>
+    <br>
+    <h3 class="nnadpis">Báj / mýtus</h3>
+    <p class="ntext">
+      <ul>
+          <li>epický, pôvodne neveršovaný žáner, odráža sa v ňom primitívny názor človeka na svet</li>
+          <li>prvý prejav kolektívneho vedomia ľudskej spoločnosti</li>
+          <li>človek pripisuje nevysvetliteľné javy bohom a polobohom</li>
+          <li>bohovia spravujú svet a život ľudí v ňom</li>
+      </ul>
+    
+      <h3 class="nnadpis">Epos</h3>
+      <p class="ntext">
+          Myty sú dôležitým prameňom, s ktorým pracuje jeden z najstarších literárnych žánrov - epos. Je to rozsiahly literárny útvar epickej poézie, v antickej literatúre zostavený 
+          vo veršovom systéme založenom na striedaní dlhých a krátkych slabík (časomerný veršový systém). Rozsiahla epická skladba epos spracúva velké historické udalosti, ktoré sú 
+          späté s kolektívom kmeňa, etnika alebo národa a jeho vodcami, rozpráva o udalostiach, ktoré sa odohrali dávno, ale ešte stále majú vplyv na život kolektívu a jednotlivca. 
+          Má hlavnú dejovú líniu a epizódne / vedľajšie dejové línie s mnohými postavami. Dej so všetkými odbočeniami vytvára epickú šírku diela. Tvoria ju dôkladné opisy postáv, 
+          prostredia, predmetov, rozvinuté prirovnania, stále prívlastky a rôzne formy opakovania. Kompozícia:
+        <ul>
+          <li><b>propozícia</b> - úvod, autor vždy stručne zhrnie obsah diela</li>
+          <li><b>invokácia</b> - vzývanie múz, autor vyzýva múzi, aby mu pomohli pravdivo napísť príbeh</li>
+          <li><b>in medias res</b> - dej, "v strede veci"</li>
+        </ul>
+      
+      <h3 class="nnadpis">Podobenstvo</h3>
+      <p class="ntext">
+          Je to krátky epický útvar, v Biblii ho nájdeme v názve asi 30 príbehov. Ich autorstvo pripisujú evanjeliá Ježišovi (napr. Podobenstvo o rozsievačovi, Podobenstvo 
+          o robotníkoch na vinici). Najčastejšie pod podobenstvom rozumieme príbeh z reálneho života podaný formou metafory, ktorý má hlbší zmysel, než sa na prvý pohľad zdá.
+  
+      <h3 class="nnadpis">Bájka</h3>
+      <p class="ntext">
+          Najčastejšie v nej vystupujú zvieratá, ktoré sú nositeľmi ustálených vlastností (napr. líška býva prešibaná a falošná). Bájka vyslovuje mravné poučenie, vysmieva sa zlu. 
+          Poučenie vyplýva bud z príbehu, alebo je formulované / jasne vyslovené na konci bájky. Bájka využíva mnohé umelecké jazykové prostriedky, najvýraznejšie /
+          najfrekventovanejšie sú napr. nepriame pomenovanie a personifikácia. Starovekú bájku na majstrovskú úroveň vypracoval <b>grécky bájkar Ezop</b> (6. stor. pred Kr.).
+          Bájka obsahuje elementárne časti textu, ktoré majú svoj vlastný význam - motívy.
+      
+      <h3 class="nnadpis">Anekdota</h3>
+      <p class="ntext">
+          Anekdota je krátky pribeh o nejakej skutočnej alebo vymyslenej udalosti zo života známej osobnosti, ktorý má neočakávaný a nepredpokladaný záver s humorným vyznením. 
+          Jej znakmi sú krátky rozsah, duchaplnusť a pointa. V súčasnosti sa stiera rozdiel medzi významami slov anekdota a vtip.
+      </p>
+      &nbsp;
+  </div>
+<div class="ucivo bg-light" id="lyrika1">
+    <h1 class="nnadpis">Lyrika</h1>
+    <br>
+    <h3 class="nnadpis">Óda</h3>
+    <p class="ntext">
+      Óda je lyrická báseň, ktorá vyniká nadnesenosťou / pátosom obsahu a jazykových prostriedkov. Oslavuje človeka, národ, slobodu, prírodu, mladosť... Zo štylistického hradiska
+      óda predstavuje úvahu, patrí teda do reflexívnej / úvahovej lyriky - autor sa zamýšľa nad nejakým faktom alebo javom, oslavuje ho, rozoberá jeho vlastnosti, hladá príčiny jeho
+      vzniku... Druhom ódy je hymna (chválospev). V antickej literatúre bola óda zborovou oslavnou piesňou. Charakterizovalo ju vzrušenie, nadšené city, umelá a vzletná forma
+      a sviatočnosť prejavu, niekedy aj priame oslovenie adresáta ódy. V gréckej literatúre písala ódy <b>Sapfo</b>. V rímskej literatúre v písaní ód vynikal <b>Horácius</b>.
+    
+      <h3 class="nnadpis">Ľúbostná báseň</h3>
+      <p class="ntext">
+          Ľúbostnú lyriku nájdeme už v Biblii v Šalamúnovej piesni. Antickí autori ako prví oslávili lásku vo všetkých jej podobách. <b>Ovídius</b> v diele <b>Umenie milovať</b>
+          svoje vlastné skúsenosti túži ponúknuť tým, ktorí nevedia, akosi vybrat partnera. V diele <b>Lieky proti láske</b> poučuje, čo robiť, aby sme sa zbavili osoby, 
+          ktorú už nemilujeme. Rady sú však myslené ironicky. Aj napriek poučovaniu nám autor zanechal dôležité posolstvo: proti skutočnej láske nijaké lieky neexistujú. 
+      
+      <h3 class="nnadpis">Žalospev / elégia</h3>
+      <p class="ntext">
+          Elégia ako lyrický žáner vznikla v starovekej literatúre. Jedným z najstarších žalospevov je nárek Gilgameša nad mŕtvym priateľom Enkiduom. Spievaná podoba žalospevu sa 
+          zachovala v hudbe ako <b>lamento</b>. V antickej gréckej literatúre sa v elégii spočiatku spracúvali námety politické a vojenské, v rímskej literatúre lúbostné s témou 
+          trýznivej a nešťastnej lásky. Konečnú podobu nadobudla u <b>Ovídia</b>.
+  
+      <h3 class="nnadpis">Epigram a epitaf</h3>
+      <p class="ntext">
+          Epigram v starovekom Grécku bol nápis na chráme, stavbe alebo pomníku. Spočiatku bol písaný neviazanou rečou (próza), neskôr viazanou rečou (poézia). V rímskej literatúre
+          nadobudol epigram podobu vtipnej básne, satiry, ktorá mala dve časti. Prvá časť nastolila problém, druhá časť ho prekvapivým spôsobom vyriešila. Z epigramu vznikol <b>epitaf</b>, 
+          lyrický žáner, nápis na náhrobnom kameni. Mal by vypovedať o autorovom vzťahu k životu. Môže byť vo forme kratšej básne alebo úryvku z dlhšej básne.
+      </p>
+      &nbsp;
+  </div>
+  <div class="ucivo bg-light" id="drama1">
+    <h1 class="nnadpis">Dráma</h1>
+    Vonkajšia kompozícia drámy
+    <ul>
+      <li><b>dejstvá</b> - časti hry oddelné spúšťaním opony, zväčša medzi dejstvami býva prestávka</li>
+      <li><b>scény</b> - zmena dekorácií, osvetlenia i hercov na javisku</li>
+      <li><b>výstupy</b> - zmena počtu osôb</li>
+    </ul>
+    Vnútorná kompozícia drámy
+    <ul>
+      <li><b>úvod / expozícia</b></li>
+      <li><b>zápletka / kolízia</b></li>
+      <li><b>vyvrcholenie / kríza</b></li>
+      <li><b>obrat / peripetia</b></li>
+      <li><b>rozuzlenie / katastrofa (v antickej dráme)</b></li>
+    </ul>
+    <br>
+  
+      <h3 class="nnadpis">Tragédia</h3>
+      <p class="ntext">
+          Grécke tragédie sa vyvinuli zo starogréckej zborovej lyriky, ktorú predvádzal zbor. Spočiatku náčelník zboru v prestávkach medzi zborovými piesňami prednášal nejaký epický
+          príbeh. Po čase Gréci zaviedli do drámy herca, ktorý odpovedal na otázky zboru, neskôr sa pridal druhý a nakoniec tretí herec. Hry sa uvádzali na počesť boha Dionýza. 
+          Autori čerpali námety z eposov Iliada a Odysea, neskôr z rôznych príbehov a bájí.
+          <br>
+          <br>
+          Podľa gréckeho filozofa Aristotela je tragédia imitáciou vážneho činu, deja v dramatickej forme. Udalosti vzbudzujú strach a súcit, čím spôsobujú katarziu 
+          Za základ tragédie považoval Aristoteles dej. Dej sa v tragédii odohráva v tom istom užšie vymedzenom jednom priestore v priebehu jedného dňa a sústreďuje sa na jednu 
+          príhodu v živote protagonistu / hlavnej postavy (požiadavka jdnoty miesta, času a deja).
+          <br>
+          <br>
+          Dej tragédie sa posúva vďaka konfliktom. V úvode / expozícii sa objavia náznaky konfliktu, v zápletke / kolízii konfliktná postava dej stupňuje, vo vyvrcholení / kríze 
+          konflikt graduje na najvyšší stupeň, v obrate / peripetii sa komplikuje riešenie konfliktu a v rozuzlení / katastrofe tragédie sa konflikt vyrieši smrťou postavy / postáv. 
+          Jadro konfliktu tvorí protichodnosť záujmov postáv. Postava sa môže dostať do konfliktu s inou postavou (interpersonálny konflikt), so spoločnosťou (spoločenský konflikt), 
+          dokonca aj sama so sebou (osobný, individuálny konflikt). Na druhé miesto kladie Aristoteles charaktery (postavy). Tie by mali byť dobré (uskutočňujú dobré úmysly), primerané
+          (ženská postava nemá mať mužské charakterové znaky), reálne a dôsledné. 
+          <br>
+          <br>
+          Protagonista je človek vznešeného postavenia, čo naznačuje, že mu bol pôvodne určený šťastný osud. Napriek výnimočným vlastnostiam nie je dokonalý, nevyniká cnosťou 
+          a spravodlivosťou, ani neupadol do nešťastia pre špatnosť a nešľachetnosf, ale pre nejaký omyl, akých sa obyčajne dopúšťajú ľudia pri veľkej sláve a šťastí...
+      
+          <h4 class="nnadpis">Sofokles - Antigona</h4>
+          <h5 class="nnadpis">Sofokles (496 - 406 pred Kr.)</h5>
+          <p class="ntext">
+            Bol rodákom z dedinky Kolónos blizko Atén. Pochádzal zo zámožnej rodiny a bol všestranne vzdelaný. Hoci sa nevyhýbal verejnému životu, ba zastával aj vysoké štátne funkcie, 
+            venoval sa skoro výlučne tragickému básnictvu, v ktorom vynikal nad všetkými vrstovníkmi. Sofokles zdokonalil staroveké divadlo. Hneď pri svojom prvom vystúpeni ako 
+            27-ročný zvíťazil nad starším krajanom, vtedy už 57-ročným Aischylom. Z mnohých diel, ktoré napísal, sa zachovalo iba sedem drám a jedna neúplná satyrská hra. Jeho 
+            najznámejšou tragédiou je Kráľ Oidipus. Zobrazuje v nej osud tébskeho vládcu Oidipa, ktorý nevedomky (riadením osudu) zabil svojho otca, oženil sa s vlastnou matkou 
+            a mal s ňou dve dcéry: Antigonu a Isménu aj dvoch synov: Polyneika a Eteokla. Keď sa dozvie, kto je a aké nešťastie privolal na seba, svojich blízkych a Téby, 
+            prijíma za svoju vinu plnú zodpovednosť.
+          <h5 class="nnadpis">Antigona</h5>
+          Hlavné postavy:
+          <ul>
+              <li><b>Antigona</b> - dcéra Oidipa, odvážna, stojí si za svojím rozhodnitím, ochotná zomrieť za správnu vec</li>
+              <li><b>Isména</b> - mladšia sestra Antigony, nie je však taká odvážna</li>
+              <li><b>Polyneikos</b> - mŕtvy brat Antigony, zomire v bratovraždnom súboji s Eteoklom</li>
+              <li><b>Eteokles</b> - mŕtvy brat Antigony, bol riadne pochovaný</li>
+              <li><b>Kreón</b> - Tébsky kráľ, Antigonin strýko, nemilosrdný a erozvážny - prichádza o svojich najbližších</li>
+              <li><b>Eurydika</b> - kráľová manželka a Haimónova matka</li>
+              <li><b>Haimón</b> - syn kráľa, miloval Antigonu, zabil sa kvôli svojej láske</li>
+          </ul>
+          <b>Dej:</b> 
+          <br>
+          Po smrti kráľa Oidipa nastúpil na trón Kreón. Pri spoločnom boji zomreli dvaja bratia a Kreón rozhodol, že iba jeden z nich bude slušne pochovaný. 
+          Polyneika nechal ležať na zemi ako potravu psom a dravým vtákom a dal ho strážiť. Ten, kto poruší jeho zákaz bude potrestaný smrťou. Antigona sa rozhodla, že Polyneika, 
+          aj napriek zákazu, pochová. O pomoc požiadala svoju sestru Isménu. Tá však odmietla. Antigone sa ho podarilo pochovať aj bez pomoci sestry. Keď sa to dozvedel od jedného 
+          zo strážcov kráľ Kreón, nahneval sa a povedal mu, že musia nájsť vinníka. Strážcovia vymysleli plán a vyhrabali telo Polyneika, aby ho niekto prišiel znova pochovať. 
+          Antigona sa k svojmu bratovi vrátila a pokúsila sa ho opäť pochovať, ale pri tom ju však chytili a ona sa priznala aj k prvému pohrebu. Odvliekli ju ku Kreónovi. Antigona 
+          sa nebála smrti, neplakala nad svojim osudom. Bola hrdá na svoj čin, ktorý urobila a Kreón zúril. Nechal priviesť aj Isménu a chcel obdive zabiť. Isména sa pokúsila prehovoriť Kreóna,
+          aby nezabil snúbenicu svojho syna Haimóna, ale ten odmietol a rozkázal Antigonu pochovať zaživa. Zavolal Haimóna, ale ten keď sa dozvedel o osude svojej snúbenice, pokúsil 
+          sa to otcovi vyhovoriť. Pohádali sa, no Kreón však svoj názor nezmenil a Antigonu nechal pochovať. Za Kreónom prišiel starý veštec Teiresias a povedal mu, že ak nezruší 
+          trest a nepochová Polyneika, tak to oľutuje. Kreón nakoniec poslúchol a dal pochovať Polyneika a otvoril hrobku, v ktorej bola Antigona. Už bolo však neskoro. Videl len 
+          obesenú Antigonu a jeho syn Haimón sa pred jeho očami prebodol vlastným mečom. Posol to oznámil Kreónovej manželke Eurydike a tá v žiali spáchala samovraždu. Až vtedy Kreón 
+          pochopil, že všetky jeho rozhodnutia boli nesprávne. Chcel zomrieť, lebo už nemal prečo žiť.
+          <br>
+          <br>
+  
+      <h3 class="nnadpis">Komédia</h3>
+      <p class="ntext">
+          Komédia je podľa Aristotela zobrazovanie ľudí horších, no nie v každom druhu špatnosti, ale len v tej jej stránke, ktorá spôsobuje smiech. Smiešne je totiž akási chyba, 
+          zvrátenosť ktorá však nespôsobuje ani bolesť, ani škodu. Samotné slovo komédia pochádza zo starogréckeho slova komoedia, ktorým sa označoval jarný obrad s hudbou, tancom 
+          a na oslavu boha Dionýza a cyklického znovuzrodenia. Najznámejším tvorcom komédií v Grécku bol Aristofanes, v Ríme Plautus. V Ríme vznikla aj <b>fraška</b>. Je to žánrová 
+          forma komédie, jednodejstvová humorná hra založená aj na situačnom humore.
+      </p>
+      &nbsp;
+  </div>
+
+
+  
+    <div class="spodok">
+      <p class="spodoktxt napis">Stredná priemyselá škola dopravná, Jakub Cuninka, Lukáš Hovanec ©</p>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

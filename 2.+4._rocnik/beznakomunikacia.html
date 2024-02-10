@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slovenský jazyk</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oswald:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="/css/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html" class="linky"><p class="napis">Učebnica zo slovenského jazyka a literatúry</p></a>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="SJL.html">Slovenský jazyk 1. ročník</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            1.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="uceniesa.html">Učenie sa a práca s informáciami</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Sloh</a></li>
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Bežná komunikácia</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Lexikálna rovina jazyka</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">2. Ročník</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            3.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="KomunikaciaSlohUcenieSa.html">Komunikácia, sloh, učenie sa</a></li>
+            <li><a class="dropdown-item" href="JazykoveProstriedky.html">Jazykové prostriedky</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">4. Ročník</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<button class="btn btn-primary buttonmenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img class="menuimg" src="/css/menu.png" alt=""></button>
+
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Učivá</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Učenie sa a práca s informáciami
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="uceniesa.html">Racionalizácia duševnej práce</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Kde a ako hľadať informácie</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Mapa mysle</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Rýchle čítanie a rámcové časti knihy</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Sloh
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="sloh.html">Štýlotvorný proces a štýlotvorné činitele</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Funkčné jazykové štýly</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Slohové postupy a slohové útvary</a></li>
+        </ul>
+      </div>
+    
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Bežná komunikácia
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#HovorovyStyl">Hovorový štýl</a></li>
+          <li><a class="dropdown-item" href="#ModerneUtvary">Moderné útvary hovorového štýlu</a></li>
+          <li><a class="dropdown-item" href="#AdministrativnyStyl">Administartívny štýl</a></li>
+          <li><a class="dropdown-item" href="#UtvaryFormatuA4">Útvary administartívneho štýlu</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Lexikálna rovina jazyka
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Slovo</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Vzťahy medzi lexikálnymi významami slov</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Slovná zásoba</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Slovníky</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Obohacovanie slovnej zásoby</a></li>
+        </ul>
+      </div>
+
+   
+  </div>
+</div>
+<div class="ucivo bg-light" id="HovorovyStyl">
+  <h1 class="nnadpis pt-3">Hovorový štýl</h1>
+  <h2 class="nnadpis pt-3">Komunikačná sféra</h2>
+  <p class="ntext">
+    <ul>
+      <li><b>Súkromná</b> - rodina, priatelia...</li>
+      <li><b>Záujmová</b> - spoločeské aktivity...</li>
+      <li><b>Pracovná</b> - škola, pracovisko...</li>
+    </ul>
+  &nbsp;
+  <h2 class="nnadpis pt-3">Funkcie</h2>
+  <p class="ntext">
+    <ul>
+      <li>Bežná komunikácia v neoficiálnom alebo polooficiálnom styku na pracovisku, v záujmovej oblasti</li>
+      <li>Súkromná komunikácia s priteľmi, rodinou, susedmi...</li>
+    </ul>
+  &nbsp;
+  <h2 class="nnadpis pt-3">Znaky hovorového štýlu</h2>
+  <p class="ntext">
+    <ul>
+      <li><b>Súkromnosť</b>
+        <ul>
+          <li>prejavy individuálneho štýlu komunikantov</li>
+          <li>nedodržiavanie výslovnostnej normy alebo pravopisnej normy</li>
+          <li>zvukové komunikačné prostriedky (stúpavá melódia, prestávky v reči, predlžovanie slabiky)</li>
+          <li>volnejší výber vyjadrovacích prostriedkov (hybridizácia slohového útvaru / žánru)</li>
+          <li>miešanie spisovných a nespisovných slov a tvarov, vplyv nárečia</li>
+          <li>familiárne oslovenia (hypokoristiká)</li>
+          <li>nepresné údaje, absencia termínov</li>
+          <li>nepriame (obrazné) pomenovania, frazeologizmy</li> 
+          <li>neverbálne komunikačné prostriedky </li>
+        </ul>
+       </li>
+       &nbsp;
+      <li><b>Subjektívnos, expresívnosť</b>
+        <ul>
+          <li>prejavy osobitého štýlu komunikantov</li>
+          <li>využivanie citosloviec, ukazovacích zámen, častíc</li>
+          <li>prítomnosť autora v texte (napr. 1. os. sg.)</li>
+          <li>pestrá modalita vety (časté zvolacie a opytovacie vety)</li>
+          <li>expresívna vetná stavba (nedokončené vety, výpustka/elipsa, netradičné umiestnenie vetného člena)</li> 
+          <li>výskyt citovo zafarbených (expresívnych) slov a prfrnakových slov a tvarov (slang)</li>
+        </ul>
+      </li>
+        &nbsp;
+      <li><b>Stručnosť</b>
+        <ul>
+          <li>krátke slohové útvary / žánre</li>
+          <li>slohových postupov na malej ploche</li>
+          <li>upredňovanie jednoslovných menovaní, skracovanie slov, deformácia slov, vypúšťanie častí slov</li>
+          <li>rýchle preberanie slov napr. z anglického jazyka</li>
+        </ul>
+      </li>
+      &nbsp;
+      <li><b>Spontánnosť</b>
+        <ul>
+          <li>využitie zvukových prostriedkov reči na naznačenie váhania, dôrazu, hrozby a pod.</li>
+          <li>chyby vo výslovnosti, v gramatike, v pravopise</li>
+          <li>pestrá modalita vety</li>
+          <li>uvolhený slovosled</li>
+          <li>náhla zmena témy (aj uprostred vety)</li>
+          <li>neukončenosť alebo prerušenie vety / výpovede</li>
+          <li>uvolnená kompoziCia slohového útvaru / žánru</li>
+          <li>opakovanie slov</li>
+          <li>výskyt významovo prázdnych slov (slovná vata, balast): pravda, no, tak, áno. proste, jedno s druhým, veď' to, kokso</li>
+        </ul>
+      </li>
+      &nbsp;
+      <li><b>Situačnosť</b>
+        <ul>
+          <li>využívanie neverbálnych prostriedkov: posunky, gestá, malá vzdialenosť medzi komunikantmi, haptika - dotyky, mimika, postoj tela, držanie rúk, pohyb - kývanie sa 
+          zo strany na stranu / nakláňanie hlavy</li>
+          <li>zvýšená frekvencia ukazovacích a osobných zámen</li>
+        </ul>
+      </li>
+    </ul>
+  &nbsp;
+  <h2 class="nnadpis pt-3">Útvary hovorového štýlu</h2>
+  <p class="ntext">
+    <ul>
+      <li><b>Klasické</b>
+        <ul>
+          <li><b>Ústne</b>
+            <ul>
+              <li><b>Monologické</b> - rozprávani príbehu, vtipu...</li>
+              <li><b>Dialogické</b> - telefonický rozhovor, hádka, debata, diskusia...</li>
+            </ul>
+          </li>
+          <li><b>Písané</b> - súkromný list, blahoželanie, kondolencia (prejavenie sústrasti)...</li>
+        </ul>
+       </li>
+       &nbsp;
+      <li><b>Moderné</b>
+        <ul>
+          <li><b>Ústne</b> - čet / chat, odkaz na záznamník...</li>
+          <li><b>Písané</b> - e-mail, SMS, vizitka, inzerát, reklama...</li>
+        </ul>
+      </li>
+    </ul>
+  &nbsp;
+</div>
+<div class="ucivo bg-light" id="ModerneUtvary">
+    <h1 class="nnadpis pt-3">Moderné útvary hovorového štýlu</h1>
+    <p class="ntext">
+      <ul>
+          <li><b>Reklama</b>
+          <ul>
+            <li>je písané alebo hovorené odporúčanie tovaru alebo služieb</li>
+            <li>stretávame sa s ňou najmä v masmédiach</li>
+            <li>má znaky publicistického štýlu, ale aj hovorového štýlu</li>
+            <li>musí byť zrozumiteľná pre veľkú skupinu ľudí</li>
+            <li>je krátka a výstžná</li>
+            <li>používa hovorové, slangové a nárečové slová, novinársky moderné slová i príležitostné slová</li>
+            <li>využíva informačný slohový postup (odpovedá na otázky: Čo? Kto? Kedy? Kde?...)</li>
+            <li>je to nátlakový komunikát</li>
+            <li>Rada pre reklamu a transmisiu vypracovala Etické zásady reklamnej praxe</li>
+            <li>často obsahuje pútavé heslo - slogan - býva vtipné a výstižné</li>
+          </ul>
+          </li>
+          &nbsp;
+          <li><b>Inzerát</b>
+            <ul>
+              <li>veľmi krátky útvar</li>
+              <li>vyskytuje sa v masmédiach alebo vo verejných pristoroch (vyvesené tabule, výklady...)</li>
+              <li>využíva prostriedky publicistického (aktuálnosť, módne slová), administratívneho (veľa detailov na malom priestore - skratky, termíny, menné vyjadrovanie)
+                a hovorového štýlu</li>
+              <li>o úspechu často rozhoduje titulok</li>
+              <li>najúspešnejší je ten inzerát, ktorý podáva najviac faktov, je originálny a umiestnený v správnych médiach a v správnom čase</li>
+            </ul>
+            </li>
+            &nbsp;
+            <li><b>E-mail</b>
+              <ul>
+                <li>kompozične a štylizačne rovnaký ako súkromný list</li>
+                <li>obsahuje oslavenie</li>
+                <li>výstižne uvedieme predmet sparávy</li>
+                <li>zámená píšeme veľkým písmenom</li>
+                <li>celý text nepíšeme veľkými písmenami (pôsobí to agresívne)</li>
+                <li>na konci píšeme zdvorilostnú formulku (napr. Teším sa na Teba...)</li>
+                <li>ukončíme ho menom</li>
+              </ul>
+              </li>
+              &nbsp;
+              <li><b>SMS</b>
+                <ul>
+                  <li>krátka textová správa</li>
+                  <li>stručné a skaratkovité vyjadrovanie</li>
+                  <li>používajú sa emotikony a akronymy</li>
+                  <li>dodoržiavame princíp zdvorilosti</li>
+                </ul>
+                </li>
+      </ul>
+    </p>
+    &nbsp;
+  </div>
+<div class="ucivo bg-light" id="AdministrativnyStyl">
+    <h1 class="nnadpis pt-3">Administartívny štýl</h1>
+    <p class="ntext">
+      <ul>
+          <li>štýl oficiálnej úradnej komunikácie, ktorá prebieha medzi súkromnou osobou a inštitúciou (alebo inou právnickou osobou) Či medzi inštitúciami</li> 
+          &nbsp;
+          <li>objektívny štýl — subjekt autora, ale aj príjemcu sa vedome potláča. Cielom nie je byt inovatívny a efektný, ale pomenovať veci čo najpresnejšie 
+              (stereotypné vyjadrovanie, opakovanie celých formulácii a názvov)</li>
+              &nbsp;
+          <li>znaky administratívneho štýlu majú aj jazykové prejavy oficiálnej pracovnej komunikácie</li>
+          &nbsp;
+          <li>do slovenčiny sa dostal prostredníctvom písomných záznamov z češtiny, nemčiny a latinčiny. Dôkazom sú zastarané slová a slovné spojenia, neurčité slovesné tvary 
+              (napr. vzhlädom na uvedené skutočnostl) a kalky (doslovné preklady cudzích slov, napr. geografia — zemepis). Ako samostatný štýl sa administratívny štýl začal 
+              v slovenskom jazyku utvárať až roku 1918, ked začala pracovať slovenská administratíva</li>
+              &nbsp;
+          <li>najčastejšie sa uplatňuje informačný slohový postup (napr. zákon, poštový poukaz, štruktúrovaný životopis...), výkladový slohový postup 
+              (napr. zákon, vyhláška, správa o Činnosti...) a opisný slohový postup (napr. neštruktúrovaný životopis, posudok pracovnika...)</li>
+      </ul>
+      &nbsp;
+      <h2 class="nnadpis pt-3">Znaky administartívneho štýlu</h2>
+      <ul>
+          <li><b>Vecnosť</b> - využíva nacionálne / pojmové (nepríznakové slová, pojmy, napr. dom, nie domček alebo chatrč, búda), 
+              odborné názvy (napr. zmenka, akcia, sociálny príspevok), čo ho približuje k odbornému štýlu. Prináša veľa faktov, vymenúva ich</li> 
+          &nbsp;
+          <li><b>Knižnosť</b> - vete chýba pestrá modalita, vety sú oznamovacie. Využíva (hlavne v právnickej oblasti) komplikované zložené súvetia</li>
+              &nbsp;
+          <li><b>Adresnosť</b> - administratívne útvary majú konkrétneho príjemcu, adresáta (napr. úradné listy), niektoré sú adresované všetkým občanom štátu alebo mesta 
+              (zákony, vyhlášky, upozornenia na stanici, blízko lesa ...)</li>
+          &nbsp;
+          <li><b>Stručnosť</b> - útvary podávajú stručnú informáciu bez vysvetľovania (pozvánka)</li>
+      </ul>
+    </p>
+    &nbsp;
+  </div>
+<div class="ucivo bg-light" id="UtvaryFormatuA4">
+    <h1 class="nnadpis pt-3">Útvary administartívneho štýlu</h1>
+    <h2 class="nnadpis pt-3">Útvary formátu A4</h2>
+    <h4 class="nnadpis pt-3">1. Zákon</h4>
+    <p class="ntext">
+      <ul>
+          <li>súhrn noriem upravujúci konanie, vzťahy jednotlivcov alebo inštitúcií</li>
+          <li>spôsob publikovania: Zbierka zákonov Slovenskej republiky (Z. z.)</li>
+          <li>platnosť: po uverejnení v Zbierke zákonov Slovenskej republiky</li>
+      </ul>
+      <h4 class="nnadpis pt-3">2. Vyhláška</h4>
+      <p class="ntext">
+        <ul>
+            <li>úradný oznam pre verejnosť</li>
+            <li>spôsob publikovania: špeciálna tlačovina alebo umiestnenie na verejnom mieste (úradná tabuľa)</li>
+            <li>účinnosť: býva uvedená v texte</li>
+        </ul>
+      <h4 class="nnadpis pt-3">3. Úradný list</h4>
+      <p class="ntext">
+      a) <b>Žiadosť</b>
+      <ul>
+          <li>oznamovací slohový útvar/žáner administratívneho štýlu (druh úradného listu)</li>
+          <li>pri jej písaní sa rešpektujú požiadavky STN</li>
+          <li>odosielatel (podávateľ) aj adresát sú známi a sú v žiadosti uvedení</li>
+          <li>píše sa zásadne na čistý biely papier formátu A4</li>
+      </ul>
+      &nbsp;
+      b) <b>Motivačný list</b>
+      <ul>
+          <li>je bežnou súčasťou procesu výberu nových zamestanancov</li>
+          <li>jeho cieľom je ukázať, prečo práve ty si ten pravý kandidát na pracovnú pozíciu</li>
+          <li>základné princípy pri písaní motivačného listu:
+              <ul>
+                  <li>prispôsobujte motivačný list pre každú ponuku osobitne</li>
+                  <li>ukážte, že niečo o firme viete</li>
+                  <li>zamerajte sa na to, čo je pre zamestnávateľa podstatné</li>
+                  <li>napíšte dôvod pre osobné stretnutie</li>
+                  <li>vložte súhlas so spracovaním osobných údajov</li>
+                  <li>rozsah motivačného listu by nemal presiahnuť 1 stranu</li>
+                  <li>vždy uvádzajte hlavičku. Obsahovať by mala vaše kontaktné údaje a kontaktné údaje firmy, ktorej píšete</li>
+                  <li>motivačný list deľte na odseky</li>
+                  <li>vyvarujte sa gramatickým chybám</li>
+              </ul>
+          </li>
+      </ul>
+      &nbsp;
+      c) <b>Sťažnosť</b>
+      <ul>
+          <li>je podanie, ktorým je možné sa domáhať ochrany práv alebo právom chránených záujmov</li>
+          <li>má formu úradného listu, podáva sa písomnealebo ústne do záznamu a musí obsahovať <b>meno, priezvisko, adresu trvalého alebo prechodného pobytu sťažovateľa</b></li>
+          <li>základné prvky sťažnosti:
+              <ul>
+                  <li>kto ju podáva</li>
+                  <li>proti komu / čomu je podávaná</li>
+                  <li>dôvody nespokojnosti a dôkazy problémov</li>
+                  <li>akého rozhodnutia sa sťažovateľ domáha</li>
+              </ul>
+          </li>
+      </ul>
+      &nbsp;
+      d) <b>Životopis</b> - slohový ätvar, ktorý oboznamuje so základnými údajmi o autorovi, s jeho znalosťami, skúsenosťami, zručnosťami... Typy
+      <ul>
+          <li><b>úradný</b>
+              <ul>
+                  <li>referuje o pravdivých faktoch zo života autora</li>
+                  <li>býva súčasťou iných písomností</li>
+                  <li>útvar informačného slohového postupu</li>
+                  <li>patrí do administatívneho štýlu</li>
+                  <li>druhy:
+                      <ul>
+                          <li><b>profesíjny životopis</b>
+                          <ul>
+                              <li>chronologické zachytenie života</li>
+                              <li>postupuje od najaktuálnejších dát smerom do minulosti</li>
+                              <li>zvyčajne sa jedná o <b>štrukturovaný životopis</b> (životopis v heslách, má podobu jednočlenných menných viet)</li>
+                          </ul>
+                          </li>
+                          <li><b>komplexný životopis</b>
+                              <ul>
+                                  <li>zachytáva pribeh celého života autora zo všetkých strán</li>
+                                  <li>viac preferovaný v minulosti</li>
+                                  <li>zvyčajne sa jedná o <b>neštrukturovaný životopis</b> (životopis v ucelených vetách)</li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </li>
+                  <li>záväzné časti:
+                      <ul>
+                          <li>meno a priezvisko (buď v záhlaví alebo v dokumnte)</li>
+                          <li>názov: Životopis (zarovnaný na stred)</li>
+                          <li>dátum amiesto narodenia</li>
+                          <li>dosiahnuté vzdelanie</li>
+                          <li>pracovné skúsenosti</li>
+                          <li>osobitné znalosti, schopnosti</li>
+                          <li>záujmi</li>
+                          <li>dátum a miesto</li>
+                          <li>vlastnoručný podpis</li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li><b>beletrizovaný</b>
+              <ul>
+                  <li>využiva umelecké jazykové prostriedky</li>
+                  <li>útvar rozprávacieho slohového postupu</li>
+                  <li>patrí do umeleckého štýlu</li>
+                  <li>prejavuje sa v ňom tvorivosť a originalita</li>
+                  <li>často využívané pri tvorení biografie i autobiografie</li>
+                  <li>nemusí byť chronologizovaný</li>
+                  <li>môže obsahovať prvky fikcie</li>
+              </ul>
+          </li>
+      </ul>
+      <h2 class="nnadpis pt-3">Útvary formátu A6</h2>
+      <ul>
+        <li><b>oznámenie</b> - je krátky slohový útvar, ktrý používa výrazové prostriedky administatívného štýlu a informačného slohového postupu,
+        môže mať znaky hovorového, ale aj umeleckého štýlu</li>
+        <li><b>ospravedlnenie</b> - može byť aj ústne alebo písomné</li> 
+        <li><b>potvrdenie</b> - o prijatí predmetu je jednoduchou písomnosťou právneho charakteru príjemca vlastnoručným podpisom potvrdzuje dohodnuté podminky</li>
+        <li><b>splnomocnenie</b> - vystavíme ho, ak sa nemôžeme osobne vykonať nejaký úkon</li>
+        <li><b>poštový peňažný poukaz</b> - je určený na poukázanie peňažnej sumy súkromným osobám alebo inštitúciam</li> 
+        <li><b>test, anketa a dotazník</b> - sú určené na zisťovanie verejnej mienky na prieskum trhu</li> 
+    </ul>
+    </p>
+    &nbsp;
+  </div>
+ 
+
+      <div class="spodok">
+        <p class="spodoktxt napis">Stredná priemyselá škola dopravná, Jakub Cuninka, Lukáš Hovanec ©</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

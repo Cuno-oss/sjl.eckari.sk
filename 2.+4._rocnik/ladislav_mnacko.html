@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Učebnica zo slovenského jazyka a literatúty 2. a 4. ročník</title>
+    <link rel="stylesheet" href="./css/stylesmain.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!-- Start headera --> 
+        <nav class="navbar bg-body-tertiary header" style="padding: 0" >
+            <div class="container-fluid header">
+              <a class="navbar-brand fw-bold link-opacity-100" href="#">
+                <img src="./images/book.png" alt="kniha" style="width: 50px;">
+                  UČEBNICA SLOVENSKÉHO JAZYKA A LITERATÚRY
+              </a>
+            </div>
+          </nav>
+    <!-- Koniec headera --> 
+
+     <!-- Start sidebaru --> 
+        <div class="main-container d-flex">
+            <div class="sidebar" id="side_nav">
+                <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+                    
+                    <button class="btn d-md-none d-block close-btn px-1 py-0 text-white btn2" onclick="CloseNav()" ><img src="./images/main-menu.png" alt="" height="25px"></button>
+                </div>
+        
+                <ul class="list-unstyled px-2 dropdown show">
+
+
+
+
+                    <li class="dropdown" onclick="LiActive()"> 
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="#" class=""> Slovenský jazyk</a>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item li2" href="#">Action</a></li>
+                              <li><a class="dropdown-item li2" href="#">Another action</a></li>
+                              <li><a class="dropdown-item li2" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </li>   
+                               
+                    <li class="dropdown"> 
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="#" class=""> Literatúra</a>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item li2" href="#">Ladislav Mnačko</a></li>
+                              <li><a class="dropdown-item li2" href="#">Another action</a></li>
+                              <li><a class="dropdown-item li2" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </li>   
+                    <li class=""><a href="./intro.html" class="text-decoration-none px-3 py-2 d-block"><i
+                                class="fal fa-envelope-open-text"></i> Ročníky</a></li>
+              
+                </ul>
+
+                <hr class="h-color mx-2">
+        
+                <ul class="list-unstyled px-2">
+                    <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-bars"></i>
+                            Zdroje</a></li>
+                    <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fal fa-bell"></i>
+                            O stránke</a></li>
+                </ul>
+            </div>
+    <!--Koniec sidebaru-->
+            
+    
+            <div class="content">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-between d-md-none d-block">
+        
+                         <button class="btn  px-1 open-btn me-2 ten btn1" onclick="OpenNav()" id="btn1" ><img src="./images/menu.png" alt="" style="height: 25px;"></button>
+                           
+                        </div>
+                        <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fal fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                           
+        
+                            </ul>
+        
+                        </div>
+                    </div>
+                </nav>
+        
+                <div class="dashboard-content px-4 pt-4">
+                    <h1 class="" style="font-weight: 700;"> Ladislav Mňačko</h1>
+                    <p>          Ladislav Mňačko slovenský básnik, dramatik a publicista Detstvo a mladosť prežil v Martine, kde sa aj vyučil za predavača v lekárni a neskôr pracoval ako stavebný robotník. V roku 1939 sa pokúsil neúspešne utiecť do ZSSR, neskôr sa v roku 1940 pokúsil prejsť cez nemecko-holandské hranice, za čo bol uväznený v koncentračnom tábore a na nútených prácach v Nemecku. V roku 1944 sa mu podarilo utiecť a aktívne sa zúčastnil 2. svetovej vojny v radoch partizánov. V roku 1945 sa stal členom KSČ. Na začiatku 50. rokov patril, ako jeden z oddaných komunistickému režimu, k najprominentnejším novinárom. V rokoch 1945 – 1953 pracoval ako redaktor pre Rudé právo a Pravdu, v rokoch 1954 – 1966 bol spravodajcom v mnohých európskych a ázijských krajinách. V roku 1956 bol šéfredaktorom časopisu Kultúrny život.<br><li><strong>Obsah diela</strong>: Dielo Ladislava Mňačka „Ako chutí moc“  by sa dalo rozdeliť na dve časti – prítomnosť a minulosť. Prítomnosť má veľmi jednoduchý dej. Odohráva sa počas troch dní pohrebu štátnika. Fotoreportér Frank má urobiť niekoľko snímok do novín. Ako skúsený a vážený fotograf vie presne kedy má byť v smútočnej sieni, preto môže tieto dni stráviť voľnejšie. Postupne sa v pohrebnej sieni, ale aj mimo nej stretáva s ľuďmi, ktorí u neho vyvolávajú spomienky. Minulosť má však oveľa zložitejší epický základ. Spomienky na mŕtveho sú podávané formou rôznych epizód z ich spoločného života. Nie je potrebné zmieňovať sa o všetkých, preto som vybral iba niekoľko, ktoré by mohli priblížiť charakter niektorej z hlavných postáv.
+
+                        <li> 1.od mladosti boli Frank so štátnikom priateľmi. Frank mal dievča. Medzi nimi a mŕtvym neboli žiadne tajomstvá. Kúpavali sa spolu v potoku. Raz však k potoku Margita neprišla bol tam iba sám štátnik. Po chvíľke rozhovoru Frank zistil, že Margita ho so štátnikom podvádza. Strašne mŕtveho zbil. V nemocnici Franka vypočúvali, chceli aby svedčil proti priateľovi. Frank ale nič nepovedal, napriek tomu, že mal naňho ťažké srdce.
+                        
+                    </li><li> 2.Počas povstania bol mŕtvy veliteľom partizánskeho oddielu. Raz v noci ich prepadli Nemci, všetkých zabili, okrem Franka, štátnika, Judity a jedného raneného. Chvíľu sa ukrývali, ale potom sa pridali k inej partizánskej skupine. Viedol ju Rus. Bola to lúpežná skupina, ktorá kradla jedlo a oblečenie sedliakom v okolí. Frank s mŕtvym s tým vnútorne nesúhlasili, no nemali prostriedky na to, aby s tým niečo urobili. Až raz prišiel deň, keď bola oslobodzovacia armáda blízko. Rus prikázal Frankovi, aby zabil nevinného sedliaka. To bola posledná kvapka, ktorú dokázal štátnik zniesť, skočil Rusovi na krk a prebral velenie nad skupinou. Vtedy bol chlap.
+                        
+                </li><li> sa mŕtvy stal šéfom kraja, kraj sa zmietal v problémoch. Musel riešiť veľa problémov. V jednej dedine zabarikádovali cestu a prestali plniť dodávky. Štátnik vzal sto chlapov a išiel tam. Keď zistili, že ľudia, ktorí blokujú cestu sú ženy, vzali palice a zbili ich po riti. Farára, ktorý ich nahuckal na vzburu vzali do mesta. Keď sa vrátil rozkázal vypnúť elektrinu v tej dedine. O chvíľu už neboli v dedine žiadne barikády a ani problém s dodávkami. V inej dedine mal tiež problém s dodávkami, tam pre zmenu neodstavil len elektrinu, ale aj telefón, autobusové linky a poštu. O tri dni prišli ľudia z dediny prosiť o znovuzavedenie všetkého. Trochu ich ešte ponaťahoval, no napokon dal všetko vrátiť do normálu. Taký bol, nepopustil, kým nemal potvrdenie o splnených dodávkach.
+                        
+            </li><li>4.Mŕtvy už ako šéf kabinetu sa vrátil do krajského mesta otvoriť novú fabriku. Potom bola slávnosť. Po slávnosti zobral mŕtvy Franka k Judite. Judite bolo dievča, ktoré ho aj so svojou rodinou počas vojny ukrývalo. Všetci štátnika vrelo privítali a najsrdečnejšie starý doktor. Otvoril fľašu najlepšieho vína a popíjali. Mŕtvy pil najviac, až sa úplne opil. Potom vstal ako v tranze a bežal za ňou do jej izby, odkiaľ bolo počuť krik. Všetci tam bežali. Videli štátnika, ako leží nahý na Judite, ktorá má roztrhané šaty. Ona sa mu vytrhla a zatvorila sa do inej izby. Mŕtvy bežal ako bez zmyslov za ňou. Trápna scéna sa skončila tak, že do neho naliali ešte pohár koňaku a on zhasol, odišla z neho všetka energia. Po pár dňoch zavreli Juditu a celú jej rodinu. Frank sa nikdy nedozvedel, či to bola práca jeho priateľa, alebo v tom mal prsty niekto iný. 
+                    </li> </p></li>
+                       
+                    <div class="video">
+                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/nsrOh0RBjvw" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href="https://getaroundgamstop.com/">how to cancel gamstop</a></iframe></p>
+                      </div>
+    
+
+
+
+
+
+    
+        <script src="main.js"></script>
+    </body>
+</html>

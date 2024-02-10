@@ -1,0 +1,204 @@
+/*sidebar zaciatok*/
+body{
+    background: #eee;
+   }
+   
+   #side_nav{
+    position: fixed;
+    background: #000;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+    margin-left: 0;
+    min-height: 100vh;
+    padding-top: 60px;
+    overflow-y: auto;
+   }
+   .content{
+      min-height: 100vh;
+      width: 100%;  
+   }
+   .dashboard-content{
+    margin-left: 250px;
+   }
+   hr.h-color{
+     background: #eee !important;
+     height: 1px !important;
+     opacity: 100 !important;;
+   }
+   .header a:hover {
+    color:#F8E559!important;
+    
+   } 
+  
+   .navbar {
+    text-align: center;
+   }
+   
+   
+   .sidebar li.active a, .sidebar li.active a:hover {
+    color: #000;
+   }
+   
+   .sidebar li a{
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .sidebar .li2 {
+    color: #000;
+   
+   }
+   .sidebar .li2:hover{
+   color: #000;
+  }
+  .sidebar .li2:active, .sidebar .li2:visited{
+    background-color: #F8E559!important;
+   }
+   .li2:hover
+   {
+   background-color: #F8E559!important;
+  }
+  .dropdown-menu {
+    max-width: 220px;
+  }
+  
+   .sidebar button {
+    text-align: left;
+   }
+   
+ /*sidebar koniec*/
+
+ .header {
+     background-color: #000;
+     color: #F8E559!important;
+     min-width: 100%;
+     max-width: 100%;
+     z-index: 1000;
+     height: 70px;
+     
+ }
+ .header a {
+     color: #F8E559!important;
+     text-align: left;
+     font-family: "Nunito Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 800 !important;
+     font-style: normal;
+     font-size: 25px;
+     
+ }
+ 
+ 
+ .header nav {
+     background-color: #000;
+     padding: 0 !important; 
+ } 
+ .content navbar-collapse {
+     background-color: white !important
+ }
+ 
+  .navbar a img{
+  margin-right: 20px;
+   }
+   .video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   }
+ .autor-1 {
+  padding-left: 250px;
+  width: 100%;
+ }
+   .autor {
+    background-color:#F8E559!important;
+   text-align: center;
+   color: black;
+  }
+  .header-open {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .autor img {
+   width: 200px;
+  }
+  .tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+   .autor h2 {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400 !important;
+    color: #000 !important;
+    padding-top: 4px;
+     }
+
+
+
+   /*Skrytie sidebaru pri malej obrazovke*/
+   @media(max-width: 767px){
+    #side_nav{
+      margin-left: -250px;
+      position: fixed;
+      min-height: 100%;
+      z-index: 1;
+      bottom: 0;
+      top: 0;
+      overflow-y: auto; 
+    }
+    .dashboard-content{
+      margin-left: 0px !important;
+     }
+    .main-container {
+      height: 100%;
+      position: relative;
+    }
+    .navbar a {
+      font-size: 19px;
+      }
+    
+      .navbar a img{
+        margin-right: 0;
+         }
+    .autor {
+      width: 100% !important;
+    }     
+    .autor-1 {
+      padding-left: 0 !important;
+    }
+     .video iframe {
+      width: 330px;
+      height: 180px;
+     }
+     .header-open div{
+      padding-top: 8px !important;
+      padding-bottom: 8px !important;
+    }
+  }
+
+
+
+
+
+  
+  .activesidebar{
+     margin-left: 0 !important; 
+     height: 100vh;
+     position: absolute;
+    }
+  
+
+
+    
+    

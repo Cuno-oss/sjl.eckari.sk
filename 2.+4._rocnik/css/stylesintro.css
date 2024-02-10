@@ -1,0 +1,60 @@
+
+body {
+  text-align: center;
+  background-color: #000!important;
+  color: white !important;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #EBEF95, #F8E559, #FFA447);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+
+#rocniky a:hover {
+  opacity: 0.5 !important;
+  transition: 0,3s;
+  height: 150%;
+}
+.header a:hover {
+  color: yellow !important;
+ }
+ .navbar .header {
+  height: 100px;
+ }
+ .navbar a {
+ font-size: 27px;
+ }
+ .rocnik-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFA447;
+  text-align: center;
+ }
+ 
+ h1 {
+  font-size: 60px !important;
+  color: #000 !important;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800 !important;
+  font-style: normal;
+ }
+ .playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+  /*Skrytie sidebaru pri malej obrazovke*/
+  @media(max-width: 650px){
+    #title h1 {
+      font-size: 45px !important;
+    }
+    .rocnik div {
+      height: 500px;
+    }
+  }

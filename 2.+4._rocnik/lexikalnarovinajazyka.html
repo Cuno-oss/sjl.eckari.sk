@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slovenský jazyk</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oswald:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="/css/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html" class="linky"><p class="napis">Učebnica zo slovenského jazyka a literatúry</p></a>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="SJL.html">Slovenský jazyk 1. ročník</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            1.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="uceniesa.html">Učenie sa a práca s informáciami</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Sloh</a></li>
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Bežná komunikácia</a></li>
+            <li><a class="dropdown-item" href="lexikalnarovinajazyka.html">Lexikálna rovina jazyka</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">2. Ročník</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            3.Ročník
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="KomunikaciaSlohUcenieSa.html">Komunikácia, sloh, učenie sa</a></li>
+            <li><a class="dropdown-item" href="JazykoveProstriedky.html">Jazykové prostriedky</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">4. Ročník</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<button class="btn btn-primary buttonmenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img class="menuimg" src="/css/menu.png" alt=""></button>
+
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Učivá</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Učenie sa a práca s informáciami
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="uceniesa.html">Racionalizácia duševnej práce</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Kde a ako hľadať informácie</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Mapa mysle</a></li>
+        <li><a class="dropdown-item" href="uceniesa.html">Rýchle čítanie a rámcové časti knihy</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Sloh
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="sloh.html">Štýlotvorný proces a štýlotvorné činitele</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Funkčné jazykové štýly</a></li>
+            <li><a class="dropdown-item" href="sloh.html">Slohové postupy a slohové útvary</a></li>
+        </ul>
+      </div>
+    
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Bežná komunikácia
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Hovorový štýl</a></li>
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Moderné útvary hovorového štýlu</a></li>
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Administartívny štýl</a></li>
+            <li><a class="dropdown-item" href="beznakomunikacia.html">Útvary administartívneho štýlu</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Lexikálna rovina jazyka
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#Slovo">Slovo</a></li>
+          <li><a class="dropdown-item" href="#VztahyMedzi">Vzťahy medzi lexikálnymi významami slov</a></li>
+          <li><a class="dropdown-item" href="#SlovnaZasoba">Slovná zásoba</a></li>
+          <li><a class="dropdown-item" href="#Slovniky">Slovníky</a></li>
+          <li><a class="dropdown-item" href="#ObohacovanieSlovnej">Obohacovanie slovnej zásoby</a></li>
+        </ul>
+      </div>
+
+   
+  </div>
+</div>
+<div class="ucivo bg-light" id="Slovo">
+  <h1 class="nnadpis pt-3">Slovo</h1>
+  <p class="ntext">
+    <ul>
+        <li>slovo je základná jazyková jednotka s ustálenou grafickou, zvukovou formou, ktorá je nositeľkou ustáleného významu</li>
+        <li>má lexikálny význam (obsah) a gramatický význam (obsahuje gramatické kategórie)</li>
+        <li>má schopnosť zastúpiť vec z reálneho / mimojazykového sveta (predmet, osoba, vlastnosť, proces, predstava a pod.)</li>
+        <li>zastupuje reálne predmety, preto sa stáva jazykovým znakom. Jazykový znak má zvukovú (formálnu) a významovú stránku</li>
+    </ul>
+    <h2 class="nnadpis pt-3">Lexikálny význam slova</h2>
+    <p class="ntext">
+      <ul>
+          <li>je to vecný / obsah slova, ktorý je ustálený</li>
+          <li>zhluk hlások bez významu nie je slovo</li>
+          <li>môže sa:
+            <ul>
+                <li><b>zužovať</b> - napr. palec - kedysi, a v niektorom nárečí doteraz, akýkołuek prst, palec - teraz jeden z prstov na ruke alebo nohe</li>
+                <li><b>rozširovať</b> - napr. limonáda - pôvodne len nápoj z citrónov, limonáda - teraz akýkoľvek ovocný nealkoholický nápoj</li>
+                <li><b>prenášať</b> - napr. list na strome a list papiera, líška - zviera a líška - golier na kabáte</li>
+            </ul>
+          </li>
+      </ul>
+    <h4 class="nnadpis pt-3">Pojem</h4>
+    <p class="ntext">
+    <ul>
+        <li>pojem je základná forma myslenia spoločná pre všetkých ľudí s rovnakou skúsenosťou bez ohľadu na reč, ktorou hovoria</li>
+        <li>vzniká zovšeobecnením (abstrakciou) podstatných vlastností celej triedy rovnocenných predmetov, ktoré ľudia odpozorovali v realite</li>
+        <li>pojmy utvorené v mysli skúsenosťou mnohých generácií dokážeme definovať</li>
+        <li>pojmy tvoria terminológiu všetkým vedným odborom</li>
+    </ul>
+    <h4 class="nnadpis pt-3">Sématický trojuholík</h4>
+    <ul>
+        <img src="css/4.1.1_Semanticky_trojuholnik.jpg"> 
+      <li>znázorňuje vzťah medzi reálnou vecou, pojmom a slovom</li>
+      <li>plnou čiarou naznačujeme priamy vzťah, čiarkovanou čiarou zasa nepriamy vzťah</li> 
+  </ul>
+  <h4 class="nnadpis pt-3">Rozsah významu slova</h4>
+  <ul>
+    <li>rozsah významu slova je daný súborom predmetov alebo javov, ktoré obsahujú jeho základné znaky</li>
+    <li>keď sa pomenovanie (slovo) vzťahuje na velký počet predmetov s tými istými základnými znakmi, význam slova má veľký rozsah (slovo strom pomenúva všetky dreviny, slovo breza pomenúva len jeden druh)</li> 
+  </ul>
+  <h4 class="nnadpis pt-3">Obsah významu slova</h4>
+  <ul>
+    <li>obsah významu slova je daný počtom významových vlastností, ktoré sú charakteristické pre isté pomenovanie. Napr. obsah významu slova jabloň je bohatý — je to strom rodiaci jablká, s kmeňom, s istým tvarom koruny a listov a pod.</li>
+    <li>čím má slovo väčší rozsah, tým má menší obsah - tým menej charakteristických významových vlastností obsahuje</li> 
+  </ul>
+  &nbsp;
+  <table class="table table-bordered">
+    <tr>
+        <td><b>↑ najväčší rozsah ↑</b></td>
+        <td><b>↑ najmenší obsah ↑</b></td>
+    </tr>
+    <tr>
+        <td>Slovan</td>
+        <td>človek bielej pleti, príslušník slovanského etnika</td>
+    </tr>
+    <tr>
+        <td>Slovák</td>
+        <td>človek bielej pleti, príslušník slovanského etnika, príslušník slovenského národa</td>
+    </tr>
+    <tr>
+        <td>Trnavčan</td>
+        <td>človek bielej pleti, príslušník slovanského etnika, príslušník slovenského národa, obyvateľ mesta Trnava</td>
+    </tr>
+    <tr>
+        <td><b>↓ najmenší rozsah ↓</b></td>
+        <td><b>↓ najväčší obsah ↓</b></td>
+    </tr>
+  </table>
+  <h2 class="nnadpis pt-3">Gramatický význam slova</h2>
+  <p class="ntext">
+    <ul>
+        <li>gramatický význam slov nie je viazaný na jediné konkrétne slovo či pomenovanie, ale je spoločný pre rovnakú kategóriu slov (napr. pre slovný druh podstatných mien či slovies)</li>
+        <li>nazývame ich kategoriálne významy — gramatické kategórie</li>
+        <li>gramatický význam slova sa teda prejavuje v gramatických kategóriách</li>
+        <li>menné gramatické kategórie (rod, číslo a pád) majú podstatné mená, prídavné mená, zámená a číslovky. Slovesné gramatické kategórie (osoba, číslo, čas, spôsob, vid, slovesný rod) majú slovesá</li>
+        <li>gramatický tvar slova má lexikálnu a amtickú časť slova:</li>
+     </ul>
+    <table class="table table-bordered">
+      <tr>
+          <th><b>tvar slova</b></th>
+          <th><b>lexikálna časť slova</b></th>
+          <th><b>gramatická časť slova</b></th>
+      </tr>
+      <tr>
+          <td><b>chlap-mi</b></td>
+          <td><b>chlap-</b> = dospelá osoba mužského pohlavia (chlap)</td>
+          <td><b>-mi</b> = viac osôb / predmetov mužského rodu zúčastňujúcich sa na deji</td>
+      </tr>
+      <tr>
+          <td><b>chlapc-ovi</b></td>
+          <td><b>chlapc-</b> = nedospelá osoba mužského pohlavia (chlapec)</td>
+          <td><b>-ovi</b> =  jedna osoba mužského rodu, k osobe smeruje napr. činnosť</td>
+      </tr>
+      <tr>
+          <td><b>rob-te</b></td>
+          <td><b>rob-</b> = vykonávať prácu (robiť)</td>
+          <td><b>-te</b> = rozkaz (na vykonávanie práce alebo nejakej činnosti) pre viac osôb alebo pre osobu, ktorej vykáme</td>
+      </tr>
+      <tr>
+          <td><b></b></td>
+          <td><b>- nositeľ vecného významu slova</b></td>
+          <td><b>gramatická prípona - nositeľ gramatického významu slova</b></td>
+      </tr>
+    </table>
+  </p>
+  &nbsp;
+</div>
+<div class="ucivo bg-light" id="VztahyMedzi">
+    <h1 class="nnadpis pt-3">Vzťahy medzi lexikálnymi významami slov</h1>
+    <p class="ntext">
+          Súčasťou lexikológie je lexikálna sémantika (náuka o význame slov a slovných spojení), ktorá skúma vzťahy medzi jazykovými jednotkami.
+          <ul><img src="css/4.2.1_Vztahy_medzi_lexikalnymi_vyznamami_slov.jpg"></ul>
+      <h3 class="nnadpis pt-3">Viacvýznamovosť — polysémia</h3>
+      <p class="ntext">
+          Slovo je nositeľom ustáleného významu, môže pomenovať jeden obsah / jednu skutočnosť - jednovýznamové slovo alebo viacero 
+          myšlienkových obsahov - viacvýznamové slovo. Jednovýznamové slová majú iba základný význam, patria tam napr. termíny/odborné
+          slová (ventilátor - vetrací prístroj). Polysémia slova je jav, pri ktorom sa jedným slovom pomenúvajú viaceré 
+          myšlienkové obsahy. Viacvýznamové slovo má základný a odvodený význam. Medzi základným významom slova a významom odvodeného 
+          slova je zjavná súvislosť. Nový význam vzniká:
+        <ul>
+            <li>na spôsob <b>metafory</b> - prenesením lexikálneho významu
+              <ul>
+                  <li>na základe podoby (napr. l. jazyk v ústach, 2. jazyk v topánke)</li>                   
+                  <li>na základe rovnakého fungovania pomenovaného predmetu (1. noha — končatina a 2. noha stola/stoličky)</li>
+                  <li>na základe charakterových vlastností (napr. 1. líška — zviera a 2. líška — prešibaný človek)</li>
+              </ul>
+            </li>
+            <li>na spôsob <b>metonymie</b> - prenesením lexikálneho významu na základe napr. priestorových, časových, príčinných Či iných súvislostí (napr.:
+              l. inteligencia - duševná vyspelosť, 2. inteligencia - sociálna vrstva, ktorá je nositelom tejto vlastnosti)</li>
+        </ul>
+        Viacvýznamovosť zachytávajú výkladové slovníky, napr. Slovník súčasného spisovného jazyka (SSSJ), Krátky slovník slovenského jazyka (KSSJ), 
+        v ktorých je základný význam slova označený číslicou l. Niektoré slová majú aj dva alebo viac základných významov. Pri nich sa významy v slovníku členia tak,
+        že za prvým základným významom sa uvádzajú odvodené významy, potom nasleduje druhý základný význam a za ním zase od neho odvodené významy. 
+        Interpretáciu a výber konkrétneho významu určuje kontext, celková situácia, ale aj skúsenost a očakávania prijímatela.
+      
+      <h3 class="nnadpis pt-3">Rovnozvučnosť - homonymia</h3>
+      <p class="ntext">
+          Rovnozvučnosť / homonymia je jav, ked dve slová majú rovnakú formu - rovnako znejú, ale pomenúvajú iné myšlienkové obsahy = homonymá / rovnozvučné slová. 
+          Medzi lexikálnymi významami týchto slov niet na prvý pohľad viditeľných súvislosti, ich rovnozvučnost je náhodná (napr. čelo - čast hlavy a čelo - hudobný nástroj). 
+          Pri homonymách nemôžeme jeden význam považovať za základný a druhý za odvodený - obe jazykové jednotky sú rovnocenné. Homonymiu / rovnozvučnosť zaznamenáva SSSJ 
+          a špeciálne Homonymický slovník od Márie Ivanovej-Šalingovej. Homonymá sa vo výkladových slovníkoch uvádzajú ako dve samostatné heslové slová a sú označené 
+          horným indexom.
+  
+      <h3 class="nnadpis pt-3">Synonymia</h3>
+      <p class="ntext">
+          Synonymia je jav, keď sa jednému významu prideluje viac foriem - jedna vec, dej, jav atď. sa pomenúva viacerými inak znejúcimi slovami, 
+          napr. črievice, topánky, obuv. Synonymá sú rovnoznačné slová s rovnakým alebo blízkym významom. Absolútne synonymá sú slová s úplnou zhodou významu 
+          (napr. veľa - mnoho, rozprávať - hovorit). Čiastočné synonymá sú slová s podobným významom (napr. mladý - svieži, čistiť zemiaky - škriabať zemiaky). 
+          Synonymá vytvárajú synonymické rady, ktorých členy však nie sú rovnocenné. Dominantné slovo radu (dominanta) je zvyčajne štylisticky neutrálne, 
+          a preto najfrekventovanejšie, napr. <b>kvetináč</b> — kvetník — črepník — črep. Synonymické rady alebo dvojice slov s rovnakým alebo blízkym významom
+          zachytáva Synonymický slovník slovenčiny. Slová zo synonymického radu si nevyberáme voľne, ale s prihliadnutím napr. na prostredie, v ktorom sa 
+          jazykový prejav realizuje, na autorský zámer ap.: 
+          <ul>
+              <li>prihovoriť sa dieťaťu: hačať - detská reč, namiesto sedieť</li> 
+              <li>úmysel uraziť v hádke: zobák - pejoratívne slovo, namiesto ústa</li>
+              <li>citovo zapôsobiť: hodiť flintu do žita - frazeologizmus, miesto vzdať sa</li>
+          </ul>
+          Pri tvorbe jazykového prejavu berieme do úvahy nielen vecný význam synonyma, ale aj jeho štylistický príznak, napr. hovorový (zákusok - dezert), odborný 
+          (uprednostňovať - preferovat), administratívny (prevádzka - činnost), knižný (dvojstranný - ambivalentný), publicistický (stretnutie - míting).
+  
+      <h3 class="nnadpis pt-3">Antonymia</h3>
+      <p class="ntext">
+          Antonymia je jav, pri ktorom sú dvojice slov protirečivé, či významovo protikladné (antonymá / opozitá - slová s opačným / protikladným významom). Antonymá môžu mať formu 
+          (napr. noc - deň, múdry - hlúpy) alebo len čiastočne odlišnú formu (napr. šťastie - nešťastie, prísť - odist). Antonymia ako výrazový prostriedok sa často využíva 
+          hlavne v publicistickom a v umeleckom štýle. Významovú protikladnosť, či protirečivosť slov využíva štylistická figúra oxymoron. V štylistickej figúre oxymoron 
+          sa spoja dve vzájomne sa vylučujúce slová (strašne krásne - buď to bolo krásne, alebo strašné). Nachádza sa v hovorovom (starý mládenec) i v umeleckom štýle 
+          (napr. krutá lúbosť, výrečné ticho).
+  
+      <h3 class="nnadpis pt-3">Paronymia</h3>
+      <p class="ntext">
+          Paronymia je jav, pri ktorom sa vedľa seba náhodne ocitnú dve jazykové jednotky, ktoré sú zvukovo i gramaticky podobné (nie však totožné), ale významy majú
+          rozdielne, napr. bor - bôr; filter - fliter; des - sed. Paronymá (náhodne súzvučné slová) nemajú stabilnú funkciu v jazyku, vznikajú náhodne. 
+          Používame ich najčastejšie nechtiac, ale niekedy aj zámerne ako prvok na oživenie textu. Paronymiu spracúva Paronymický slovník. Paronymá sú nevhodné v oficiálnej 
+          odbornej alebo úradnej komunikácii. Využívajú sa v umeleckej literatúre, napr. paronomázia - zvuková štylistická figúra, ktorá je postavená na spojení slov
+          s rovnakým slovným základom (napr. slavme slavně slávu Slavov slavných - J. Kollár) a publicistike (neúctivý titulok v bulvárnych novinách: Dohabaná Habancová). 
+          Paronymiu (aj homonymiu) využíva štylistická figúra kalambúr (slovná hra: milovanie milo vanie).
+    </p>
+    &nbsp;
+  </div>
+<div class="ucivo bg-light" id="SlovnaZasoba">
+    <h1 class="nnadpis pt-3">Slovná zásoba</h1>
+    <h3 class="nnadpis pt-3">Základné vlastnosti slovnej zásoby</h3>
+    <p class="ntext">
+      <ul>
+          <li><b>rozsiahlosť</b> - nespočetné množstvo slov sa ani nedá slovníkovo zachytiť </li>
+          <li><b>otvorenosť</b> - prijímanie nových slov a vypadávanie zastaraných slov</li>
+          <li><b>dynamickosť</b> - prijímanie nových slov a ich zapájanie do lexikálneho systému </li>
+          <li><b>multištruktúrnosť</b> - vytváranie vzťahov slova s inými slovami, napr. slovotvorné, synonymické, antonymické vzťahy</li>
+      </ul>
+  
+      <h3 class="nnadpis pt-3">Časti slovnej zásoby</h3>
+      <p class="ntext">
+        <ul>
+            <li><b>jadro - centerum slovnej zásoby</b> - tvoria ho slová, ktoré vymenúvajú základné javy ovplyvňujúce život človeka. Sú tam najpoužívanejšie slová 
+              (a, veľký), najstaršie slová (matka, tri), základové, neodvodené slová (jesť, voda), od ktorých možno tvoriť odvodené slová, domáce alebo zdomácnené slová (noha, škola), 
+              nacionálne a neutrálne slová / bez citového a štylistického príznaku (hovoriť). Centrum slovnej zásoby je relatívne stále, mení sa oveľa pomalšie ako periférna časť 
+              slovnej zásoby</li>
+              &nbsp;
+            <li><b>okraj - periférna časť slovnej zásoby</b> - je veľmi variabilná, pohyblivá, slová do nej vstupujú alebo z nej vypadávajú. Slová z periférnej časti používa 
+              menšia časť používatelov jazyka, používajú sa menej často než slová z jadra slovnej zásoby, sú príznakové. Nachádzajú sa tam napr. archaizmy (jazykospyt), 
+              historizmy (dereš), neologizmy (smartfón), odborné slová (termíny - koník lúčny), cudzie slová (teritórium), básnické slová (lkat), slová s citovým príznakom (mamka), 
+              vlastné mená (Timea), odvodené slová (ľadový). Sú menej frekventované ako slová z jadra slovnej zásoby, ale vo svojom jazykovom štýle sa používajú často</li>
+        </ul>
+      
+      <h3 class="nnadpis pt-3">Druhy slovnej zásoby</h3>
+      <p class="ntext">
+          <li><b>individuálna</b> - každý človek si rozvíja svoju individuálnu slovnú zásobu čítaním, počúvaním rozhlasu, komunikáciou... Bohatá slovná zásoba a sčítanosť 
+              ulahčuje proces učenia a štúdium. Rozsah slovnej zásoby u jednotlivcov je rôzny.
+              <ul>
+                  <li><b>aktívna</b> - súhrn všetkých slov, ktorým jednotlivec rozumie a ktoré v bežnej komunikácii využíva</li>
+                  <li><b>pasívna</b> - súhrn všetkých slov, ktorým jednotlivec rozumie, ale vzhľadom na odborné alebo iné zameranie ich v komunikácii nepoužíva</li>
+              </ul>
+          </li>
+          <li><b>základná</b> - všetky slová v slovenskom alebo inom národnom jazyku patria do slovnej zásoby národného jazyka. Keď sa učíme cudzí jazyk, učíme sa 
+              najfrekventovanejšie slová v bežnej komunikácii - základnú slovnú zásobu</li>
+  
+      <h3 class="nnadpis pt-3">Systém slovnej zásoby</h3>
+      <p class="ntext">
+          Slovnú zásobu (už existujúce slová a slovné spojenia) využívajú účastníci verbálnej komunikácie ako komunikačný prostriedok, aby pomocou nej pomenúvali veci okolo seba, 
+          vyjadrovali svoj vzťah k predmetom reálneho sveta, aby efektívne komunikovali v pozícii autora či prijímatela. Zároveň používatelia jazyka vytvárajú aj nové slová. 
+          <br>
+          <br>
+          Slovná zásoba, ako aj jazyk všeobecne, ovplyvňuje naše myslenie a je prostriedkom nášho myslenia, vnímania a správania sa (napr. existenciu slova ponáhlať sa 
+          podmienila potreba spresniť jav rýchlo kráčajúceho človeka, inak by postačilo aj slovo íst). Náš obraz o svete sa formuje aj prostredníctvom jazyka.
+          <br>
+          <br>
+          Prijímateľ ako aktívny účastník komunikácie interpretuje text po svojom. Jeho pochopenie významu slov a interpretácia textu zavisí napr. od hĺbky poznania jazyka, 
+          skúseností, prostredia, v ktorom žije, od stupňa vzdelania a pod. Musí rozlíšiť nielen funkciu textu, ale aj rozpoznať napr. slovnú hru, iróniu, metaforu - nemôže 
+          chápať každé slovo v jeho základnom význame. Vníma ho v kontexte a zároveň ho ovplyvňujú aj isté očakávania, ktoré má od konkrétnej komunikácie.
+          <br>
+          <br>
+          Slová v slovnej zásobe môžeme usporiadať podľa viacerých hľadísk:
+          <ul>
+              <li><b>štylistického príznaku</b></li> 
+              <li><b>spisovnosti</b></li>
+              <li><b>časového príznaku</b></li>
+              <li><b>citového príznaku</b></li>
+              <li><b>pôvodu</b></li>
+          </ul>
+          <b>Štruktúra systému slovnej zásoby je dynamická</b> - záleží na komunikačnej situácii, či slovo vnímame ako neutrálne alebo ako štylisticky príznakové 
+          (napr. slovo idiot ako termín i ako nadávka; byvolia krava - v odbornom texte z biológie; krava - hovorovom štýle v rozhovore o zvieratách; krava - v hádke ako nadávka).
+  
+      <h3 class="nnadpis pt-3">Slová podľa štylistického príznaku</h3>
+      <p class="ntext">
+          <table class="table table-bordered">
+              <tr>
+                  <th rowspan="12"><b>štylisticky príznakové slová</b></th>
+                  <td rowspan="2"><b>hovorový štýl</b></td>
+                  <td><b>hovorové slová</b> - vodičák, presilovka...</td>
+              </tr>
+              <tr>
+                  <td><b>profesionalizmy</b> - používajú ich ľudia s rovnakým povolaním, napr. hasák (rúrkové kliešte)...</td>
+              </tr>
+              <tr>
+                  <td><b>náučný štýl</b></td>
+                  <td><b>odborné slová / termíny</b>
+                      <ul>
+                          <li>domáce - primkýnanie, kyselina sýrová...</li>
+                          <li>internacionálne - fraktúra...</li>
+                          <li>zmiešané - rezonančná skriňa...</li>
+                      </ul>
+                  </td>
+              </tr>
+              <tr>
+                  <td rowspan="4"><b>umelecký štýl</b></td>
+                  <td><b>knižné slová</b> - bázlivý, činiť...</td>
+              </tr>
+              <tr>
+                  <td><b>poetizmy / básnické slová</b> - bázlivý, činiť...</td>
+              </tr>
+              <tr>
+                  <td><b>príležitostné slová / okazionalizmy</b> - paláska, špatnokrásny...</td>
+              </tr>
+              <tr>
+                  <td><b>biblizmy</b> - farizej, manna...</td>
+              </tr>
+              <tr>
+                  <td rowspan="2"><b>administratívny štýl</b></td>
+                  <td><b>kancelarizmy</b> - platca, predlatné...</td>
+              </tr>
+              <tr>
+                  <td><b>termíny</b> - vyhláška, príjemca...</td>
+              </tr>
+              <tr>
+                  <td rowspan="3"><b>publicistický štýl</b></td>
+                  <td><b>publicizmy / žurnalizmy</b> - politikum, brexit...</td>
+              </tr>
+              <tr>
+                  <td><b>odborné slová / termíny</b> - dementi, komuniké...</td>
+              </tr>
+              <tr>
+                  <td><b>knižné slová</b> - progres, manipulátor...</td>
+              </tr>
+              <tr>
+                  <th><b>štylisticky nepríznakové slová</b></th>
+                  <td><b>všetky jazykové štýly</b></td>
+                  <td><b>neutrálne slová</b> - otec, voda...</td>
+              </tr>
+            </table>
+  
+      <h3 class="nnadpis pt-3">Slová podľa spisovnosti</h3>
+      <p class="ntext">
+          <table class="table table-bordered">
+              <tr>
+                  <td><b>spisovné slová</b></td>
+                  <td>zemiaky, učiteľ...</td>
+              </tr>
+              <tr>
+                  <td rowspan="3"><b>umelecký štýl</b></td>
+                  <td><b>dialektizmy / nárečové slová</b> - zemáky, krumple...</td>
+              </tr>
+              <tr>
+                  <td><b>slangové slová</b> - oblbovák, slepák...</td>
+              </tr>
+              <tr>
+                  <td><b>argotové slová</b> - jazyk spodiny, napr. tráva, fet, fízel...</td>
+              </tr>
+            </table>
+      
+      <h3 class="nnadpis pt-3">Slová podľa citového príznaku</h3>
+      <p class="ntext">
+          <table class="table table-bordered">
+              <tr>
+                  <th rowspan="8"><b>slová s citovým zafarbením</b></th>
+                  <td rowspan="8"><b>expresíve slová</b></td>
+                  <td rowspan="4"><b>s kladným citovým príznakom</b></td>
+                  <td><b>zdrobneniny</b> - rúčka, nožička...</td>
+              </tr>
+              <tr>
+                  <td><b>rodinné slová</b> - mamka, Janíčko...</td>
+              </tr>
+              <tr>
+                  <td><b>detské slová</b> - papať, maco...</td>
+              </tr>
+              <tr>
+                  <td><b>zjemňujúce výrazy</b> - prihol sa (opil sa), odišiel (zomrel)...</td>
+              </tr>
+              <tr>
+                  <td rowspan="4"><b>so záporným citovým príznakom</b></td>
+                  <td><b>hanlivé slová</b> - frňák (nos), laba (o nohe človeka)...</td>
+              </tr>
+              <tr>
+                  <td><b>nadávky</b> - mamľas, teľa...</td>
+              </tr>
+              <tr>
+                  <td><b>slová so zveličujúcim významom</b> - nosisko, kusisko...</td>
+              </tr>
+              <tr>
+                  <td><b>vulgarizmy</b> - oslopaný, nažrať sa (o človeku)...</td>
+              </tr>
+              <tr>
+                  <th><b>slová bez citového zafarbenia</b></th>
+                  <td colspan="2"><b>nocionálne slová</b></td>
+                  <td>ruka, Ján, medveď...</td>
+              </tr>
+            </table>
+  
+      <h3 class="nnadpis pt-3">Slová podľa pôvodu</h3>
+      <p class="ntext">
+          <table class="table table-bordered">
+              <tr>
+                  <td rowspan="2"><b>domáce slová</b></td>
+                  <td>dvere, voda...</td>
+              </tr>
+              <tr>
+                  <td><b>zdomácnené / prevzaté slová</b> - škola, omša...</td>
+              </tr>
+              <tr>
+                  <td rowspan="3"><b>cudzie slová</b></td>
+                  <td><b>pravopisne neznáme slová</b> - pizza, laser...</td>
+              </tr>
+              <tr>
+                  <td><b>rozlične adaptované slová</b> - softvér, víkend...</td>
+              </tr>
+              <tr>
+                  <td><b>internacionalizmy / medzinárodné slová</b> - parabola, geografia...</td>
+              </tr>
+            </table>
+  
+      <h3 class="nnadpis pt-3">Slová podľa časového príznaku</h3>
+      <p class="ntext">
+          <table class="table table-bordered">
+              <tr>
+                  <td><b>historizmy</b> - predmet, ktorý slovo pomenúva, zanikol</td>
+                  <td>groš, pionier...</td>
+              </tr>
+              <tr>
+                  <td><b>archaizmy</b> - pomenovaný pred ešte existuje, no má iný názov</td>
+                  <td>temnica - väzenie, biednik - úbožiak...</td>
+              </tr>
+              <tr>
+                  <td><b>zastarané slová</b> - pomenovaný pred ešte existuje, no má iný názov, ale malá časť ľudí ešte používa starý výraz</td>
+                  <td>zomrelý - mŕtvy, rínok - námestie...</td>
+              </tr>
+              <tr>
+                  <td><b>neologizmy</b> - nové slová, ktoré pomenúvajú nové raálie, činnosti, javy...</td>
+                  <td>
+                      <ul>
+                          <li><b>cudzieho pôvodu</b> - mobil, akcia...</li>
+                          <li><b>domáceho pôvodu</b> - dlhopis, zaheslovať...</li>
+                          <li><b>kombinované</b> - eurominca, ozónová diera...</li>
+                      </ul>
+                  </td>
+              </tr>
+            </table>
+    </p>
+    &nbsp;
+  </div>
+  <div class="ucivo bg-light" id="Slovniky">
+    <h1 class="nnadpis pt-3">Slovná zásoba</h1>
+    <p class="ntext">
+      Slovná zásoba jazyka je sústredená v slovníkoch. Slovníky sa rozdelujú podľa viacerých kritérií, napr. podľa <b>veľkosti</b> (vreckové, krátke), <b>spôsobu spracovania slov</b> 
+      (napr. informativne/encyklopedické, výkladové), <b>obsahového zamerania</b> (napr. nárečové, historické, synonymické, výslovnostné), <b>počtu jazykov</b> 
+      (napr. dvojjazyčný prekladový slovník). Opis slovnej zásoby jazyka z rôznych hľadísk zachytávajú slovníky v knižnej a v elektronickej forme.
+  
+      <h3 class="nnadpis pt-3">Knižné slovníky</h3>
+      <p class="ntext">
+        <ul>
+            <li><b>Výkladový</b> - vysvtľuje význam slov a slovných spojení. Je dôležitý pre bežných používateľov jazyka, ale aj pre ľudí, ktorí sa zaoberajú štúdiom.
+          Používame napr. Slovník slovenského jazyka, Krátky slovník slovenského jazyka...</li>
+            <li><b>Normatívny</b> - Krátky slovník slovenského jazyka</li>
+            <li><b>Pravopisný</b> - obsahuje slová, s ktorými môžu mať používatelia problémy pri písaní. Používame Pravidlá slovenského pravopisu</li>
+            <li><b>Ortoepický</b> - uvádza slová v abecednom poradí a foneticky zapísanú spisovnú výslovnosť. Používame Pravidlá slovenskej výslovnosti</li>
+            <li><b>Paronimický</b> - Paronimický slovník</li>
+            <li><b>Synonimický</b> - Synonimický slovník slovenčiny</li>
+            <li><b>Homonimický</b> - Homonimický slovník</li>
+            <li><b>Frazeologický</b> - Malý frazeologický slovník</li>
+            <li><b>Etymologický</b> - prináša informácie o pôvode, prvotnom význame a príbuznosti slov. Používame Stručný etymologický slovník slovenčiny</li>
+            <li><b>Prekladový</b> - najmenej dvojjazyčný, napr. Anglicko-slovenský slovník</li>
+            <li><b>Cudzích slov</b> - Veľký slovník cudzích slov</li>
+            <li><b>Terminologický</b> - slovník podľa vedných odborov, napr. Lingvistický slovník</li>
+            <li><b>Slovník skratiek</b> - Slovník skratiek a značiek</li>
+            <li><b>Slovník slangu</b> - Slovník slovenského slangu</li>
+        </ul>
+    </p>
+    &nbsp;
+  </div>
+  <div class="ucivo bg-light" id="ObohacovanieSlovnej">
+    <h1 class="nnadpis pt-3">Obohacovanie slovnej zásoby</h1>
+    <p class="ntext">
+        Zmeny v slovnej zásobe nastávajú nielen pohybom slov medzi jej centrom a periférnou vrstvou, ale aj tvorením nových slov, skracovaním slov, tvorením viacslovných pomenovaní, 
+        tvorením nepriamych / obrazných pomenovaní a preberaním slov z cudzích jazykov. Tvorením slov sa zaoberá jazykovedná disciplína <b>slovotvorba</b>, ktorá je súčasťou lexikológie. 
+  
+      <h2 class="nnadpis pt-3">1. Tvorenie slov</h2>
+      <h3 class="nnadpis pt-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Odvodzovanie slov</h3>
+      <p class="ntext">
+          Jedným zo znakov slov z jadra slovnej zásoby je to, že možno od nich <b>tvoriť nové slová</b> - existujú teda <b>základové slová</b> (matka, drevo, škola). 
+          Poznáme dva slovotvorné postupy <b>odvodzovanie</b> a <b>skladanie</b>. Pri tvorení slov vznikajú <b>nové lexikálne významy slov</b>, napr. zo slova škola (pomenovanie budovy 
+          alebo inštitúcie) vytvoríme <b>odvodzovaním</b> slovo škol-ník (pomenovanie zamestnania muža). Slovo vytvorené odvodzovaním je <b>odvodené slovo</b> a má 
+          <b>nový lexikálny význam</b>. Každé odvodené slovo sa skladá z dvoch častí. Slovotvorná štruktúra slova pri odvodzovaní je teda dvojčlenná, túto štruktúru slova tvorí:
+          <ul>
+              <li><b>Slovotvorný základ</b> - časť pôvodného základového slova, ktoré je nositeľom lexikálneho významu. V niektorých odvodenách sloách sa nachádza <b>viazaný
+                  slovotvorný základ</b>: základové slovo dnes už nepoznáme alebo zaniklo a bez predpony neexistuje (napr. do-<b>tknúť</b>, po-<b>tknúť</b>...)</li>
+              <li><b>Slovotvorný formant</b> - časť, ktorá obmieňa lexikálny význam slova. Môže ním byť <b>slovotvorná predpona</b> (pra-, pred-, za-...) aj <b>slovotvorná prípona</b>
+              (-ár, -áreň, -teľ...). Existuje aj <b>kombinovaný slovotvorný formant</b>, v slove je slovotvorná predpona aj prípona. Slovotvorné formanty sa môžu postupne 
+              navrstvovať (napr. naj-ne-u-<b>ver</b>-i-teľ-n-ejší).</li>
+          </ul>
+          Odvodené slová vznikajú aj <b>prechodom k inému slovnému druhu</b>:
+          <ul>
+              <li><b>bezpríponové odvodzovanie</b> - vyletieť (sloveso) --> výlet (podstatné meno)</li>
+              <li><b>pomocou prípony</b> - starý (prídavné meno) --> star<b>oba</b> (podstatné meno)</li>
+              <li><b>pomocou predložkových tvarov</b> - pri tom (zámeno) --> pritom (príslovka)</li>
+              <li><b>pridanie zvratného zámena</b> - pískať --> pískať <b>si</b> (zmena slovesa na zvaratné sloveso)</li>
+          </ul>
+  
+      <h3 class="nnadpis pt-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Skladanie slov</h3>
+      <p class="ntext">
+          Skladanie slov je slovotvorný postup, pri ktorom sa spoja vždy najmenej dva slovotvorné základy (autoškola, cin-cin, akoby, česko-slovensko-maďarský, päťdesiatpät) 
+          a vytvoria slovo s novým lexikálnym významom. Slovotvorné základy slov sa spoja pomocou <b>spájacej samohlásky</b>, napr. bledý + modrý bled-o-modrý = bledomodrý, 
+          alebo <b>bez spájacej samohlásky</b>, napr. sto + prvý stoprvý.
+          <br>
+          <br>
+          Z pravopisu zložených slov:
+          <ul>
+              <li>ak má zložené prídavné meno v základoch napr. dve farby (červený a biely = červeno-biely) dva národy (nemecký a ruský = nemecko-rusky) píše sa so spojovníkom
+                (na rozdiel od bledozelený - jedna farba, lužickosrbský - jeden národ Lužický Srbi)</li>
+              <li>ak chceme vyjadriť jednotnosť, kompaktnosť dvoch vlastností, píšeme zložené prídavné meno bez spojovníka (gréckorímsky zápas, lyrickoepická skladba)</li>
+              <li>zložené zámená sa skloňujú podľa príslušných skloňovacích vzorov (takýto človek, takíto ľudia, akýsi človek. akísi Tudia - vzor pekný)</li>
+              <li>zložené číslovky typu tisíckrát, výnimkou z krátenia</li>
+              <li>nesklonné číslovky píšeme spolu: sedemdesiattri rokov, dvetisícpäťstodvadsaťtri žiakov (alebo dvetisíc päťsto dvadsaťtri žiakov), ak sa zložené číslovky skloňujú,
+                píšeme v G. D. A. L. I osobitne desiatky a jednotky</li>
+              <li>keď nahradíme číslovku číslicou, slovo zostane a preto musíme medzi ne napísať spojovník: 3-krát, 2-ročný</li>
+              <li>príslovky píšeme väčšinou dovedna (sčasti, nadránom), so spojovníkom píšeme zdvojené príslovky (tak-tak, už-už) a príslovky skladajúce sa z antoným 
+                (dnes-zajtra, voľky-nevoľky)</li>
+              <li>príslovky označujúce farbu a tie, ktoré označujú, od akého veku alebo od akého vzrastu sa dej koná, píšeme osobitne i dovedna (do biela / dobiela, od mlada / odmlada)</li>
+              <li>väčšinu častíc píšeme dovedna (takisto, ktovie, zmeravené)</li>
+              <li>častice utvorené z dvoch rovnakých slov (len-len) píšeme ako zložené slovo so spojovníkom, niektoré viacslovné častice i osobitne: čo i len, a len, priam tak</li>
+              <li>dovedna sa píšu spojky, ktoré vznikli z predložkových zámen alebo spojky s časticou -by (medzitým, preto, žeby)</li>
+              <li>spojku akoby píšeme dovedna, ak dá sa nahradiť spojkou ako keby (Vyzerá, akoby nejedával. / Vyzerá, ako keby nejedával. Ale: Rozmýšľa, ako by sa čo najlepšie odvďačila.)</li>
+              <li>zložené citoslovcia nemajú ustálený pravopis (hi-hi-hi! hihihi!)</li>
+              <li>pri skladaní slov vznikajú aj zložené slová, v ktorých sa vyskytujú dve dlhé slabiky nasledujúce po sebe (napr. šéftréner, tisícnásobný, stýkrát)</li>
+          </ul>
+  
+      <h3 class="nnadpis pt-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Skracovanie slov</h3>
+      <p class="ntext">
+          Pri skracovaní slov <b>nevytvárame nový lexikálny význam slova</b>, význam skratky je rovnaký ako vo východiskovom slove alebo slovnom spojení. Zredukujeme len počet písmen, 
+          napr. zo slova zostane jedno písmeno (h), skupina prvých písmen (hod), prvé a posledné písmeno (fa - firma, Dr.), iniciály všetkých slov v slovnom spojení (SND),
+          či skupina písmen z každého slova v slovnom spojení (Slovnaft). Skracovanie je dôsledkom ekonomizácie (zostručnenia) textu hlavne v písaných prejavoch administratívnej 
+          a odbornej komunikácie, ale nachádzame ho aj v bežnej komunikácii (chodím do práce MHD, učí na SOŠ). 
+          <br>
+          <br>
+          Z pravopisu skrátených slov: 
+          <ul>
+              <li>grafické (textové) skratky píšeme s malým písmenom s bodkou na konci: č. / čís., t. j., s. (strana, aj str.), veľmi vzácne sú z východiskového 
+                slovného spojenia ponechané len samohlásky (a iné --> ai.), vedecko-pedagogické tituly píšeme malým písmenom pred menom: doc., prof.</li>
+              <li>v iniciálových skratkách (názvy inštitúcii, štátov) píšeme každé prvé písmeno (iniciálu) velké, bez bodky na konci: DÚ (daňový úrad), NR SR
+                (Národná rada Slovenskej republiky), ak by inštitúcie mali mať rovnakú skratku, pridá sa ďalšie (malé) písmeno: SPŠS (stredná priemyselná škola strojnícka)
+                a SPŠSt (stredná priemyselná škola stavebná)</li>
+              <li>iniciálové skratkové slová (pri výslovnosti ich nehláskujeme ako iniciálové skratky) skloňujeme podľa príslušných vzorov, píšu sa veľkými písmenami (NAPANT/NAPANT-u)
+                alebo prvé písmeno je veľké (SĽUK / SĽUK-u / Sľuk / Sľuku, Slovnaft - Slovenská nafta)</li>
+              <li>neiniciálové skratkové slová / skratkové slová píšeme s malým písmenom, niektoré sa skloňujú, iné sú nesklonné (deko, detox, bus)</li>
+              <li>v chemických značkách píšeme prvé písmeno velké, bez bodky na konci (O, Cu, H)</li>
+              <li>menové jednotky píšeme rovnako (KČ = Koruna Česká), ale v oficiálnych kurzových listoch rešpektujeme európske požiadavky na značky menových jednotiek: 
+                EUR (euro), CZK (Česká koruna)</li>
+              <li>v značkách meracích jednotiek píšeme velké písmeno, len ak je to skratka vlastného mena objaviteľa, bodku na konci nepíšeme: m, cm, kW (kilowat), dB (decibel)</li>
+          </ul>
+  
+      <h2 class="nnadpis pt-3">2. Tvorenie viacslovných pomenovaní</h2>
+      <p class="ntext">
+        Tvorením viacslovných pomenovaní vznikajú <b>združené pomenovania</b> (ustálené slovné spojenia s nepreneseným významom) a <b>frazeologizmy</b> (ustálené slovné spojenia s 
+        preneseným významom). Tvorením združených pomenovaní sa zaoberá lexikológia. Jazykovedná disciplína, ktorá sa zaoberá frazeologickými jednotkami, sa nazýva frazeológia.
+        <br>
+        <br>
+        Združené pomenovania sú neexpresívne viacslovné pomenovania:
+        <ul>
+            <li><b>termíny</b> - lúľkovec zlomocný, hlava valca, prisudzovací sklad</li>
+            <li><b>vlastné mená</b> - Spišský hrad, Nové Mesto nad Váhom</li>
+            <li><b>viacslovné pomenovania bez štylistického príznaku odbornosti (netermíny)</b> - stužková slávnosť, biela káva</li>
+        </ul>
+        Združené pomenovania sa skladajú z viacerých slov, ale pomenúvajú len jeden predmet. V texte sú premiestniteľné ako jeden celok. Medzi časti združeného pomenovania
+        nemožno vložiť iné slovo ani meniť ich slovosled či slovný tvar. Združené pomenovania sú ustálené lexikálne jednotky - netvoríme ich vždy nanovo počas komunikácie. 
+        Mnohé zo združených pomenovaní kvôli úspornosti meníme na jednoslovné pomenovania (napr. stužková slávnosť - stužková). Vo viacslovných názvoch jedinečných inštitúcií je 
+        začiatočné písmeno prvého slova velké (napr. Slovenské národné divadlo). Ak sa nachádza na dalŠej pozícii vlastné meno, začiatočné písmeno druhého názvu je tiež 
+        veľké (napr. Národná rada Slovenskej republiky - názov jedinečnej inštitúcie obsahuje aj názov nášho štátu). 
+      
+        <h3 class="nnadpis pt-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frazeologizmi</h3>
+        <p class="ntext">
+          Frazeologizmy / frazeologické jednotky (frazémy) sú ustálené, významovo celistvé spojenia dvoch alebo viacerých slov alebo vetné konštrukcie. Frazeologizmy podobne
+          ako jednoslovné pomenovania sú súčasťou slovnej zásoby národného jazyka ako hotové, ustálené lexikálne jednotky. Majú nasledujúce vlastnosti: 
+            <ul>
+                <li><b>viacslovnosť</b> - najmenej dve slová alebo tvary: predložka + slovo</li>
+                <li><b>ustálenosť formy</b> - vo frazeologickej jednotke nemôžeme svojvoľne zameniť slovo, vymeniť zastarané slovo za slovo bez časového príznaku, zmeniť tvar slova, 
+                  aj ked už gramatický tvar nezodpovedá súčasnému spisovnému jazyku, zmeniť slovosled alebo zmeniť vetu doplnením chýbajúcej časti vetného člena</li>
+                <li><b>obraznosť</b> - frazeologizmy sú lexikálne jednotky s preneseným významom, sú to obrazné pomenovania, a preto nepochopíme ich význam, ak si budeme všímat len 
+                  základný význam jednotlivých slov - frazeologizmus má význam ako celok</li>
+            </ul>
+          Pôvod frazeologizmov:
+          <ul>
+            <li><b>ľudové</b>
+                <ul>
+                    <li><b>porekadlo</b> - komentuje poznatok, čin alebo pripomenie skúsenosť v konkrétnej situácii (padla kosa na kameň, Aká matka, taká Katka.)</li>
+                    <li><b>príslovie</b> - vychováva, poúča konkrétneho človeka na základe skúseností (Kto druhému jamu kope, sám do nej spadne.)</li>
+                    <li><b>pranostika</b> - zhŕňa stáročné skúsenosti ľudí s počasím, s ročnými obdobiami alebo so zdravím (Matej lady láme. V marci umierajú starci.)</li>
+                    <li><b>prirovnanie</b> - zintenzívni názornosť alebo expresívnosť jazykového prejavu, uskutočňuje sa pomocou spojok: ako, sťa, jak, ani, než, akoby, sťaby
+                      (čierny ako žúžol, čuší ako voš pod chrastou, behá ako divý)</li>
+                </ul>
+            </li>
+            <br>
+            <li><b>intelektuálne</b> - frazeologizmy, ktoré sú často spoločné pre mnohé európske jazyky, napr. kocky sú hodené, bojuje proti veterným mlynom. Pochádzajú napr. z:
+                <ul>
+                    <li><b>starovekej mytológie</b> - Ariadnina niť, trójsky kôň, stojí ako soľný stĺp, Tantalove muky</li>
+                    <li><b>Biblie</b> - judášsky groš, niesť svoj kríž, posledná večera, sodoma a gomora</li>
+                    <li><b>umeleckej literatúry</b> - byť či nebyť, bojovať proti veterným mlynom, zločin a trest, silný ako Valibuk</li>
+                    <li><b>histórie</b> - kocky sú hodené, prekročiť rubikon, Pyrrhovo víťazstvo, objavili Ameriku</li>
+                </ul>
+            </li>
+        </ul>
+  
+      <h2 class="nnadpis pt-3">3. Pretváranie pomenovaní: univerbizácia a multiverbalizácia</h2>
+      <p class="ntext">
+        <ul>
+          <li><b>univerbizácia</b> - proces tvorenia jednoslovných pomenovaní, pri ktorom z viacslovného pomenovania (najčastejšie dvojslovného) vznikne jednoslovné pomenovanie
+            (triedny učiteľ - triedny). Univerbizácia ekonomizuje text v bežnej komunikácii (absťák, kreditka, národné, zimák, vstupné...). Univerbizácia robí text stručnejším, 
+            dynamickejším. Je veľmi frekventovaným javom v hovorovom Štýle, signalizuje neoficiálne, zväčša ústne jazykové prejavy. Často sa nachádza aj v pásme reči postáv 
+            v umeleckej literatúre</li>
+          <br>
+          <li><b>multiverbalizácia</b> - proces tvorenia viacslovných pomenovaní, pri ktorom sa viacerými slovami pomenúva činnosť, ktorá bola pôvodne nazvaná jednoslovným pomenovaním
+            (opraviť --> vykonať opravu, zaujímavo --> zaujímavým spôsobom, v súčasnosti --> v súčasnej dobe). Multiverbizáciu využívame v odbornej, publicistickej a v 
+            administratívnej komunikačnej sfére. Signalizuje oficiálny, hlavne písaný text.</li>
+        </ul>
+  
+      <h2 class="nnadpis pt-3">4. Tvorenie nepriamych / obrazných pomenovaní</h2>
+      <p class="ntext">
+        V obrazných pomenovaniach sa uchováva historická skúsenosť viacerých generácií, a preto sú mnohé z nich súčasťou národného dedičstva. Okrem lexikológie nepriame / obrazné
+        pomenovania skúma literárnovedná disciplína - teória literatúry.
+        <ul>
+          <li><b>metafora</b> - nepriame pomenovanie, nahrádzanie slova slovom iného druhu: vzniká zámenou jedného slova / slovného spojenia iným slovom / slovným spojením na
+            princípe podobnosti javov, predmetov (napr. hviezda - celebrita, žeriav - stroj, oko - oko na sieti). Ak vytvárame metaforu, prepožičiavame predmetu iné pomenovanie, 
+            pretože vnímame podobnosť medzi tým, čo slovo už pomenúva, a tým, čo chceme nazvať. Metafora však nielen krášli text, ale aj napr. pomenúva alebo objasňuje
+            (hlavička písomnosti, hlava štátu, hĺbková štruktúra), hodnotí a vyjadruje postoj (predal sa - napr. zradil stranu, má mäkkú povahu, To prasa!), zovšobecňuje 
+            (hyeny - pomenovanie zištných politikov) ap. Treba si uvedomiť, že tvorca metafory ju môže vnímať inak ako jej prijímatel / interpret. Podľa používania v komunikácii
+            sa vydeľuje: 
+              <ul>
+                  <li><b>lexikalizovaná metafora</b> - ide o už zaužívanú metaforu, na ktorej obraznosť sme si už zvykli (koleno na nohe a koleno na odpadovej rúre), a vnímame 
+                    viac opisnú či pomenovaciu schopnost (napr. v odbornom názve hlava valca, hlava zákona, myš počítača). Lexikalizovaná metafora sa vyskytuje vo všetkých jazykových
+                    štýloch, je častá aj v náučnom štýle</li>
+                  <li><b>aktualizovaná metafora</b> - ide o originálnu (básnickú) metaforu, ktorá je založená na predstavivosti, na asociácii (vietor sa šmýkal, v poslednom lúči
+                    starootcovská horela rola), je veľmi častá v umeleckom štýle, ale aj v rečníckom a v publicistickom štýle. Okrem umeleckých textov ju nájdeme často v reklame,
+                    v politickej rétorike, ale aj v bežnej komunikácii</li>
+              </ul>
+           </li>
+          <br>
+          <li><b>personifikácia </b> - je druhom metafory, za personifikáciu považujeme prípad, keď neživá vec vykonáva činnosť ľudskej bytosti (napr. zem spieva, les hovorí). 
+            Neživej veci (téme) sa pripisuje čast vlastností (báza) živej bytosti (figúra)</li>
+          <br>
+          <li><b>metonymia</b> - prenesenie významu z východiskového slova na cielové slovo na základe vecnej alebo logickej súvislosti (napr. dedina povstala - nie obec, ale
+            ľudia bývajúci v nej). Je prostriedkom úspornosti / ekonomizácie textu - „vystrihne" z vety len to najnutnejšie. Pri metafore je dôležitá podobnost a pri metonymii sú 
+            dôležité časové, priestorové, príčinné súvislosti dvoch predmetov:
+              <ul>
+                <li><b>autor - dielo</b> - číta Hviezdoslava = jeho dielo</li>
+                <li><b>celok - časť</b> - zašiť rukáv = dieru na rukáve, nie celý rukáv</li>
+                <li><b>priestor - obyvateľ / majiteľ</b> - Slovensko nezaspalo = obyvatelia Slovenska nezaspali</li>
+                <li><b>činnosť - nástroj</b> - živí sa jazykom = je tlmočník</li>
+                <li><b>činnosť - výsledok činnosti</b> - spôsobila to tlač = je výsledkom činnosti tlačenie</li>
+                <li><b>nádoba - obsah</b> - vypil celý pohár = vypil len obsah pohára</li>
+                <li><b> materiál - výrobok</b> - chodí v hodvábe = v šatách z hodvábu</li>
+              </ul>
+          </li>
+          <br>
+              Druhom metonymie je synekdocha - význam slova sa prenáša na základe kvantitatívnych vzťahov, v textoch sa najčastejšie vyskytuje zámena:
+                <ul>
+                  <li><b>čast za celok</b> - moja noha tam viac nevkročí = nielen noha, ale celá osoba</li>
+                  <li><b>celku za časť</b> - Bratislava sa teší. = nie celá Bratislava, len viacero jej obyvaterov sa teší</li>
+                  <li><b>singuláru za plurál</b> - tam sa na žiaka kladú veľké nároky = na všetkých žiakov sa tam kladú veľké nároky</li>
+                </ul>
+        </ul>
+  
+      <h2 class="nnadpis pt-3">5. Preberanie slov</h2>
+      <p class="ntext">
+        Po celý čas vývoja nášho jazyka trvá proces preberania slov z iných jazykov. Kým sme si v minulosti rozširovali slovnú zásobu národného jazyka predovšetkým slovami z 
+        latinčiny (vírus), gréčtiny (škola) či nemčiny (kráľ) a zo slovanských jazykov, v súčasnosti sa slovenčina ako iné európske jazyky internacionalizuje, preberá cudzie 
+        slová hlavne z angličtiny. Prispôsobenie písania slovenskému pravopisu netrvá rovnako dlho a nemá rovnaký výsledok. Slová sa po čase prispôsobia úplne, niektoré sa aj 
+        po dlhšom čase prispôsobia len čiastočne alebo sa neprispôsobia vôbec alebo sa používa dvojtvar (tínedžer / teenager). Pôvod slov v národnom jazyku skúma jazykovedná 
+        disciplína etymológia (veda o pôvode slov). Jedným z prvých vedcov, ktorí sa zamýšrali nad pôvodom slov v slovenčine, bol Matej Bel a Anton Bernolák. Slovenčina preberá
+        slová z cudzích jazykov hlavne z týchto dôvodov: 
+            <ul>
+                <li><b>chýba domáci výraz</b> - nestihli sme ho vytvoriť (snoubord, klonovať)</li>
+                <li><b>domáci výraz je dlhší, náročnejší na výslovnosť</b> - programové vybavenie počítača = softvér, podporovateľ = sponzor</li>
+                <li><b>potreba internacionálneho odborného slova</b> - napr. v profesionálnom prostredí (aorta namiesto srdcovnica)</li>
+                <li><b>prestížnosť cudzieho výrazu</b> - supermarket, šou, párty, imidž, selfie</li>
+            </ul>
+        <img src="css/4.5.1_Povod_slov.jpg">
+      </p>
+    &nbsp;
+  </div>
+
+      <div class="spodok">
+        <p class="spodoktxt napis">Stredná priemyselá škola dopravná, Jakub Cuninka, Lukáš Hovanec ©</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
