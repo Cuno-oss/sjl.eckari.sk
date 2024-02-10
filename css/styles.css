@@ -88,3 +88,6 @@ text-decoration: none;}
     position: relative;
     display: inline;
 }
+iframe {
+    justify-content: center;
+}
